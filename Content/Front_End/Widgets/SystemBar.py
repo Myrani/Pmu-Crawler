@@ -7,29 +7,21 @@ class SystemBar(QWidget):
         self.systemBar = QGroupBox(self)
         self.systemBarLayout = QHBoxLayout()
         self.systemBar.setLayout(self.systemBarLayout)
-        self.systemBar.setGeometry(-20, -20, 1320, 75)
+        self.systemBar.setGeometry(180, -20, 1100, 75)
         self.systemBar.setContentsMargins(0,0,0,0)
         self.systemBar.setStyleSheet(
         " QGroupBox {background-color:rgba(0,0,0,0.6);border: solid 0px;}")
 
 
-        self.optionBar = QGroupBox(self)
-        self.optionBarLayout = QHBoxLayout()
-        self.optionBar.setLayout(self.optionBarLayout)
-        self.optionBar.setMaximumSize(1000, 75)
-        self.optionBar.setContentsMargins(0,0,0,0)
-        self.optionBar.setStyleSheet(
-        " QGroupBox {background-color:rgba(0,0,0,0);border: solid 0px;}")
 
         self.windowGestionBar = QGroupBox(self)
         self.windowGestionBarLayout = QHBoxLayout()
         self.windowGestionBar.setLayout(self.windowGestionBarLayout)
-        self.windowGestionBar.setMaximumSize(120, 75)
+        self.windowGestionBar.setGeometry(1175,-10,110,50)
         self.windowGestionBar.setStyleSheet(
         " QGroupBox {background-color:rgba(0,0,0,0);border: solid 0px;}")
 
-        self.systemBarLayout.addWidget(self.optionBar,0,Qt.AlignLeft)
-        self.systemBarLayout.addWidget(self.windowGestionBar)
+
         
         self.initUI()
 
@@ -37,7 +29,7 @@ class SystemBar(QWidget):
 
         self.minimizeButton = QPushButton("-")
         self.minimizeButton.setMinimumSize(QSize(50, 40))
-        self.minimizeButton.setMaximumSize(QSize(50, 40))
+        self.minimizeButton.setMaximumSize(QSize(50, 40))   
         self.minimizeButton.setStyleSheet(
         " QPushButton::hover{background-color: rgba(255, 255, 255, 0.2);color :black ;}; background-color:rgba(0,0,0,0.6); color: white;border : 0px;")
         self.minimizeButton.clicked.connect(

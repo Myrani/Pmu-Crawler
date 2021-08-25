@@ -1,3 +1,7 @@
+from Content.Front_End.Windows.RacesWindow import RacesWindow
+from Content.Front_End.Windows.DashboardWindow import DashboardWindow
+from Content.Front_End.Windows.CrawlerWindow import CrawlerWindow
+from Content.Front_End.Windows.MonitoringWindow import MonitoringWindow
 
 import os
 import sys
@@ -7,7 +11,7 @@ from PyQt5.QtWidgets import QMainWindow, QGraphicsOpacityEffect, QLabel, QDeskto
 from PyQt5.QtCore import Qt, QPoint
 from PyQt5.QtGui import QPixmap
 
-from Content.Front_End.Windows.DashboardWindow import DashboardWindow
+
 
 class MainWindow(QMainWindow):
     
@@ -51,10 +55,32 @@ class MainWindow(QMainWindow):
         delta = QPoint(event.globalPos() - self.oldPos)
         self.move(self.x() + delta.x(), self.y() + delta.y())
         self.oldPos = event.globalPos()
-    
+    #Reachable Functions
+    def print1(self,x):
+        print(x,1)
+
+    def print2(self,x):
+        print(x,2)
+   
     ### Dynamic window swapping ,call thoses functions to change the current displayed window
     def startDashboardWindow(self):
         self.dashboardWindow = DashboardWindow(parent=self)
         self.setCentralWidget(self.dashboardWindow)
         self.show()
+   
+    def startMonitoringWindow(self):
+        self.monitoringWindow = MonitoringWindow(parent=self)
+        self.setCentralWidget(self.monitoringWindow)
+        self.show()
+    
+    def startCrawlerWindow(self):
+        self.crawlerWindow = CrawlerWindow(parent=self)
+        self.setCentralWidget(self.crawlerWindow)
+        self.show()
+    
+    def startRacesWindow(self):
+        self.racesWindow = RacesWindow(parent=self)
+        self.setCentralWidget(self.racesWindow)
+        self.show()
+
 
