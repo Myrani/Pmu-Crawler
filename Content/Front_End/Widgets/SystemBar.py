@@ -10,7 +10,7 @@ class SystemBar(QWidget):
         self.systemBar.setGeometry(180, -20, 1100, 75)
         self.systemBar.setContentsMargins(0,0,0,0)
         self.systemBar.setStyleSheet(
-        " QGroupBox {background-color:rgba(0,0,0,0.6);border: solid 0px;}")
+        " QGroupBox {background-color:rgba(0,0,0,0);border: solid 0px;}")
 
 
 

@@ -14,7 +14,7 @@ class CrawlerWindow(QWidget):
         self.monitoringMenu = QGroupBox(self)
         self.monitoringMenuLayout = QGridLayout()
         self.monitoringMenu.setLayout(self.monitoringMenuLayout)
-        self.monitoringMenu.setGeometry(180, 35, 1260, 660)
+        self.monitoringMenu.setGeometry(180, 35, 1100, 690)
         
         self.monitoringMenu.setStyleSheet(
             "QGroupBox {border:3px solid black;background-color:rgba(0,0,0,0.6)}")
@@ -22,8 +22,27 @@ class CrawlerWindow(QWidget):
         self.initUIContent()
         self.show()
 
+        self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)}")
+
     def initUIContent(self):
-        self.backButton = QPushButton("Crawler")
-        self.backButton.clicked.connect(
-           lambda: self.nativeParentWidget().startDashboardWindow())
-        self.monitoringMenuLayout.addWidget(self.backButton,6,6,1,1)
+        
+        self.currentRacesFound = QLabel("Courses Trouvées :")
+        self.currentRacesFetched = QLabel("Courses Rappatriées :")
+
+        self.monitoringMenuLayout.addWidget(self.currentRacesFound,0,0,1,1)
+        self.monitoringMenuLayout.addWidget(self.currentRacesFetched,0,1,1,1)
+
+        self.finderButton = QPushButton("Lancer la recherche des courses possibles")
+        self.finderButton.clicked.connect(
+           lambda: self.startCrawling())
+        self.monitoringMenuLayout.addWidget(self.finderButton,1,0,1,1)
+
+        self.recupButton = QPushButton("Lancer la récupération des courses recherchées")
+        self.recupButton.clicked.connect(
+           lambda: self.startCrawling())
+        self.monitoringMenuLayout.addWidget(self.recupButton,1,1,1,1)
+
+
+
+    def startCrawling(self):
+        pass

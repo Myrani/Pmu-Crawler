@@ -16,7 +16,7 @@ class MenuBar(QWidget):
         self.mainWindow = self.parent().parent()
         self.functionDic = {"Accueil":self.mainWindow.startDashboardWindow,
                             "Récupération":self.mainWindow.startCrawlerWindow,
-                            "Monitoring":self.mainWindow.startMonitoringWindow,
+                            "Surveillance":self.mainWindow.startMonitoringWindow,
                             "Courses":self.mainWindow.startRacesWindow,
                             "X":self.mainWindow.startMonitoringWindow,
                             "Y":self.mainWindow.startCrawlerWindow}

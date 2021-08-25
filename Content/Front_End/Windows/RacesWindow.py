@@ -17,7 +17,7 @@ class RacesWindow(QWidget):
         
         self.monitoringMenu.setStyleSheet(
             "QGroupBox {border:3px solid black;background-color:rgba(0,0,0,0.6)}")
-
+        self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)}")
         self.initUIContent()
         self.show()
 

@@ -19,14 +19,18 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setGeometry(10, 10, 1280, 720)
+        # Durable variable initialisation 
+        self.racesFile = {}
+
 
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
+        self.setAttribute(Qt.WA_TranslucentBackground, True)
         self.setWindowOpacity(0.95)
         self.setContentsMargins(0,0,0,0)
         #self.label_background.move(0, 0)
         self.setWindowFlags(Qt.FramelessWindowHint)
-        # self.setStyleSheet("background-color:#6d3a91;")
+        self.setStyleSheet("background-color:rgba(0, 0, 0, 1);")
 
         self.startDashboardWindow()
 

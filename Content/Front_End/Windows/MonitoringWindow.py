@@ -14,16 +14,23 @@ class MonitoringWindow(QWidget):
         self.monitoringMenu = QGroupBox(self)
         self.monitoringMenuLayout = QGridLayout()
         self.monitoringMenu.setLayout(self.monitoringMenuLayout)
-        self.monitoringMenu.setGeometry(180, 35, 1260, 660)
+        self.monitoringMenu.setGeometry(180, 35, 1100, 690)
         
         self.monitoringMenu.setStyleSheet(
             "QGroupBox {border:3px solid black;background-color:rgba(0,0,0,0.6)}")
 
+        self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)}")
         self.initUIContent()
         self.show()
 
     def initUIContent(self):
-        self.backButton = QPushButton("Monitoring")
+        self.currentEventDecriptionLabel = QLabel("Liste des évènements notables durant la surveillance")
+        self.monitoringMenuLayout.addWidget(self.currentEventDecriptionLabel,0,0,1,1)
+        self.currentEventDecriptionLabel.setStyleSheet("color:white;")
+
+        self.currentEventList = QLabel("")
+        self.monitoringMenuLayout.addWidget(self.currentEventList,1,0,4,3)
+        self.backButton = QPushButton("Démarrer la surveillance des cotes")
         self.backButton.clicked.connect(
            lambda: self.nativeParentWidget().startDashboardWindow())
-        self.monitoringMenuLayout.addWidget(self.backButton,6,6,1,1)
+        self.monitoringMenuLayout.addWidget(self.backButton,4,4,1,1)
