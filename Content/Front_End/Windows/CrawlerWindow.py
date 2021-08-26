@@ -1,6 +1,7 @@
+from Content.Back_End.UrlExtracter import UrlExtracterQThread
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PyQt5.QtWidgets import QListWidget, QListWidgetItem, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 from PyQt5.QtCore import QThreadPool
 from Content.Back_End.UrlFinder import UrlFinderQThread
 
@@ -11,6 +12,7 @@ class CrawlerWindow(QWidget):
         super(CrawlerWindow,self).__init__(parent=parent)
 
         self.threadpool = QThreadPool()
+        self.threadpool.setMaxThreadCount(4)
 
         self.systemBar = SystemBar(parent=self)
         self.menuBar = MenuBar(parent=self)
@@ -38,37 +40,52 @@ class CrawlerWindow(QWidget):
 
         # Information Display
 
-        self.currentRacesFoundDisplay = QGroupBox(self)
-        self.currentRacesFoundDisplayLayout = QVBoxLayout(self)
-        self.currentRacesFoundDisplay.setLayout(self.currentRacesFoundDisplayLayout)
+        self.currentRacesFoundDisplay = QListWidget(self)
+        self.currentRacesFoundDisplayScrollBar = QScrollBar(self)
+        self.currentRacesFoundDisplay.setStyleSheet("::item{background: rbga(0,0,0,0);color: white;}")
+        self.currentRacesFoundDisplay.setVerticalScrollBar(self.currentRacesFoundDisplayScrollBar)
+    
 
-        self.monitoringMenuLayout.addWidget(self.currentRacesFoundDisplay,1,0,2,1)
+        self.monitoringMenuLayout.addWidget(self.currentRacesFoundDisplay,1,0,9,1)
 
-        self.currentRacesFetchedDisplay = QGroupBox(self)
-        self.currentRacesFetchedDisplayLayout = QVBoxLayout(self)
-        self.currentRacesFetchedDisplay.setLayout(self.currentRacesFetchedDisplayLayout)
+        self.currentRacesFetchedDisplay = QListWidget(self)
+        self.currentRacesFetchedDisplayScrollBar = QScrollBar(self)
+        self.currentRacesFetchedDisplay.setStyleSheet("::item{background: rbga(0,0,0,0);color: white;}")
+        self.currentRacesFetchedDisplay.setVerticalScrollBar(self.currentRacesFetchedDisplayScrollBar)
 
-        self.monitoringMenuLayout.addWidget(self.currentRacesFetchedDisplay,1,1,2,1)
+        self.monitoringMenuLayout.addWidget(self.currentRacesFetchedDisplay,1,1,9,1)
         
         self.finderButton = QPushButton("Lancer la recherche des courses possibles")
         self.finderButton.clicked.connect(
-           lambda: self.startCrawling())
-        self.monitoringMenuLayout.addWidget(self.finderButton,4,0,1,1)
+           lambda: self.startCrawlingFinder())
+        self.monitoringMenuLayout.addWidget(self.finderButton,10,0,1,1)
 
         self.recupButton = QPushButton("Lancer la récupération des courses recherchées")
         self.recupButton.clicked.connect(
-           lambda: self.startCrawling())
-        self.monitoringMenuLayout.addWidget(self.recupButton,4,1,1,1)
+           lambda: self.startCrawlingExtracter())
+        self.monitoringMenuLayout.addWidget(self.recupButton,10,1,1,1)
 
         for link in self.nativeParentWidget().racesLinks:
-            self.currentRacesFoundDisplayLayout.addWidget(QLabel(link))
+            self.currentRacesFoundDisplay.addItem(QListWidgetItem(link))
 
+        for link in self.nativeParentWidget().racesDone:
+            self.currentRacesFetchedDisplay.addItem(QListWidgetItem(link))
 
-    def startCrawling(self):
+    def startCrawlingFinder(self):
         self.worker = UrlFinderQThread(parent=self)
-        self.worker.signals.finished.connect(self.loadRaces)
+        self.worker.signals.finished.connect(self.loadRacesLinks)
         self.threadpool.start(self.worker.run)
 
-    def loadRaces(self,data):
+    def startCrawlingExtracter(self):
+        for link in self.nativeParentWidget().racesLinks[0:6]:
+            self.worker = UrlExtracterQThread(link,parent=self)
+            self.worker.signals.finished.connect(self.loadRaceResults)
+            self.threadpool.start(self.worker.run)
+
+    def loadRacesLinks(self,data):
         self.nativeParentWidget().racesLinks = data
+        self.nativeParentWidget().startCrawlerWindow()
+
+    def loadRaceResults(self,data):
+        self.nativeParentWidget().racesDone.append(str(data))
         self.nativeParentWidget().startCrawlerWindow()

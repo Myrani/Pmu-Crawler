@@ -21,8 +21,9 @@ class MainWindow(QMainWindow):
         self.setGeometry(10, 10, 1280, 720)
         # Durable variable initialisation 
         self.racesFile = {}
-        self.racesLinks = []
-
+        self.racesLinks = ["test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0"]
+        self.racesDone = []
+        
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
         self.setAttribute(Qt.WA_TranslucentBackground, True)
