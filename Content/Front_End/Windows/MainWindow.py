@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
         self.setGeometry(10, 10, 1280, 720)
         # Durable variable initialisation 
         self.racesFile = {}
-
+        self.racesLinks = []
 
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
@@ -32,7 +32,16 @@ class MainWindow(QMainWindow):
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setStyleSheet("background-color:rgba(0, 0, 0, 1);")
 
+        # Instanciation Window
+        self.init_Windows()
+
         self.startDashboardWindow()
+    
+    def init_Windows(self):
+        self.dashboardWindow = False
+        self.monitoringWindow = False
+        self.crawlerWindow = False
+        self.racesWindow = False
 
     def resource_path(self,relative_path):
         """ Get the absolute path to the resource, works for dev and for PyInstaller """
@@ -68,21 +77,25 @@ class MainWindow(QMainWindow):
    
     ### Dynamic window swapping ,call thoses functions to change the current displayed window
     def startDashboardWindow(self):
+
         self.dashboardWindow = DashboardWindow(parent=self)
         self.setCentralWidget(self.dashboardWindow)
         self.show()
    
     def startMonitoringWindow(self):
+
         self.monitoringWindow = MonitoringWindow(parent=self)
         self.setCentralWidget(self.monitoringWindow)
         self.show()
     
     def startCrawlerWindow(self):
+
         self.crawlerWindow = CrawlerWindow(parent=self)
         self.setCentralWidget(self.crawlerWindow)
         self.show()
     
     def startRacesWindow(self):
+
         self.racesWindow = RacesWindow(parent=self)
         self.setCentralWidget(self.racesWindow)
         self.show()
