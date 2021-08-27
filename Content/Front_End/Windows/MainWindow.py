@@ -21,7 +21,7 @@ class MainWindow(QMainWindow):
         self.setGeometry(10, 10, 1280, 720)
         # Durable variable initialisation 
         self.racesFile = {}
-        self.racesLinks = ["test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0","test","test0"]
+        self.racesLinks = []
         self.racesDone = []
         
         # Window Opacity

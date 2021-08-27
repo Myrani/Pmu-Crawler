@@ -37,9 +37,7 @@ class UrlFinderQThread(QProcess):
         fireFoxOptions.add_argument("--headless")
 
         driver = webdriver.Firefox(options=fireFoxOptions,executable_path=self.resource_path('geckodriver.exe'))
-        loop = QEventLoop()
-        QTimer.singleShot(1000, loop.exit)
-        loop.exec_()
+
         driver.get(base_url)
     
         html = driver.execute_script("return document.documentElement.outerHTML")
