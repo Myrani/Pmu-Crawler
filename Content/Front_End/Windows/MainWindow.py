@@ -1,3 +1,5 @@
+from Content.Back_End.UrlExtracter import UrlExtracterQThread
+from Content.Back_End.UrlFinder import UrlFinderQThread
 from Content.Front_End.Windows.RacesWindow import RacesWindow
 from Content.Front_End.Windows.DashboardWindow import DashboardWindow
 from Content.Front_End.Windows.CrawlerWindow import CrawlerWindow
@@ -8,7 +10,7 @@ import sys
 
 
 from PyQt5.QtWidgets import QMainWindow, QGraphicsOpacityEffect, QLabel, QDesktopWidget
-from PyQt5.QtCore import Qt, QPoint
+from PyQt5.QtCore import QThreadPool, Qt, QPoint
 from PyQt5.QtGui import QPixmap
 
 
@@ -33,7 +35,11 @@ class MainWindow(QMainWindow):
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setStyleSheet("background-color:rgba(0, 0, 0, 1);")
 
-        # Instanciation Window
+        # Création de la Process Pool 
+        self.threadpool = QThreadPool()
+        self.threadpool.setMaxThreadCount(4)
+
+        # Instanciation de l'acceuil
         self.init_Windows()
 
         self.startDashboardWindow()
@@ -76,7 +82,7 @@ class MainWindow(QMainWindow):
     def print2(self,x):
         print(x,2)
    
-    ### Dynamic window swapping ,call thoses functions to change the current displayed window
+    ### Fonction de lancement des fênetres 
     def startDashboardWindow(self):
 
         self.dashboardWindow = DashboardWindow(parent=self)
@@ -102,3 +108,22 @@ class MainWindow(QMainWindow):
         self.show()
 
 
+    ### Fonction de lancement des Crawlers web
+    def startCrawlingFinder(self):
+        self.worker = UrlFinderQThread(parent=self)
+        self.worker.signals.finished.connect(self.loadRacesLinks)
+        self.threadpool.start(self.worker.run)
+
+    def startCrawlingExtracter(self):
+        for link in self.racesLinks:
+            self.worker = UrlExtracterQThread(link,parent=self)
+            self.worker.signals.finished.connect(self.loadRaceResults)
+            self.threadpool.start(self.worker.run)
+
+    def loadRacesLinks(self,data):
+        self.racesLinks = data
+        self.startCrawlerWindow()
+
+    def loadRaceResults(self,data):
+        self.racesDone.append(str(data))
+        self.startCrawlerWindow()

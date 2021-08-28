@@ -57,12 +57,12 @@ class CrawlerWindow(QWidget):
         
         self.finderButton = QPushButton("Lancer la recherche des courses possibles")
         self.finderButton.clicked.connect(
-           lambda: self.startCrawlingFinder())
+           lambda: self.nativeParentWidget().startCrawlingFinder())
         self.monitoringMenuLayout.addWidget(self.finderButton,10,0,1,1)
 
         self.recupButton = QPushButton("Lancer la récupération des courses recherchées")
         self.recupButton.clicked.connect(
-           lambda: self.startCrawlingExtracter())
+           lambda: self.nativeParentWidget().startCrawlingExtracter())
         self.monitoringMenuLayout.addWidget(self.recupButton,10,1,1,1)
 
         for link in self.nativeParentWidget().racesLinks:
@@ -71,21 +71,4 @@ class CrawlerWindow(QWidget):
         for link in self.nativeParentWidget().racesDone:
             self.currentRacesFetchedDisplay.addItem(QListWidgetItem(link))
 
-    def startCrawlingFinder(self):
-        self.worker = UrlFinderQThread(parent=self)
-        self.worker.signals.finished.connect(self.loadRacesLinks)
-        self.threadpool.start(self.worker.run)
-
-    def startCrawlingExtracter(self):
-        for link in self.nativeParentWidget().racesLinks[0:6]:
-            self.worker = UrlExtracterQThread(link,parent=self)
-            self.worker.signals.finished.connect(self.loadRaceResults)
-            self.threadpool.start(self.worker.run)
-
-    def loadRacesLinks(self,data):
-        self.nativeParentWidget().racesLinks = data
-        self.nativeParentWidget().startCrawlerWindow()
-
-    def loadRaceResults(self,data):
-        self.nativeParentWidget().racesDone.append(str(data))
-        self.nativeParentWidget().startCrawlerWindow()
+    
