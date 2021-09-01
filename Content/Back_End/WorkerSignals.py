@@ -8,4 +8,4 @@ class WorkerSignalsFinder(QObject):
 
 class WorkerSignalsExtracter(QObject):
     
-    finished = pyqtSignal(dict)
+    finished = pyqtSignal(list)

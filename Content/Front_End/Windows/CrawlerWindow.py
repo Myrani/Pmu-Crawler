@@ -28,7 +28,11 @@ class CrawlerWindow(QWidget):
         self.show()
 
         self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)}")
-
+        
+        # After instatiation effects
+        self.currentRacesFoundDisplayScrollBar.setValue(self.currentRacesFoundDisplayScrollBar.maximum())
+        self.currentRacesFetchedDisplayScrollBar.setValue(self.currentRacesFetchedDisplayScrollBar.maximum())
+    
     def initUIContent(self):
         
         # Descriptive Headers
@@ -44,7 +48,6 @@ class CrawlerWindow(QWidget):
         self.currentRacesFoundDisplayScrollBar = QScrollBar(self)
         self.currentRacesFoundDisplay.setStyleSheet("::item{background: rbga(0,0,0,0);color: white;}")
         self.currentRacesFoundDisplay.setVerticalScrollBar(self.currentRacesFoundDisplayScrollBar)
-    
 
         self.monitoringMenuLayout.addWidget(self.currentRacesFoundDisplay,1,0,9,1)
 
@@ -52,6 +55,7 @@ class CrawlerWindow(QWidget):
         self.currentRacesFetchedDisplayScrollBar = QScrollBar(self)
         self.currentRacesFetchedDisplay.setStyleSheet("::item{background: rbga(0,0,0,0);color: white;}")
         self.currentRacesFetchedDisplay.setVerticalScrollBar(self.currentRacesFetchedDisplayScrollBar)
+        self.currentRacesFetchedDisplayScrollBar.setValue(len(self.nativeParentWidget().racesDone))
 
         self.monitoringMenuLayout.addWidget(self.currentRacesFetchedDisplay,1,1,9,1)
         
@@ -68,7 +72,7 @@ class CrawlerWindow(QWidget):
         for link in self.nativeParentWidget().racesLinks:
             self.currentRacesFoundDisplay.addItem(QListWidgetItem(link))
 
-        for link in self.nativeParentWidget().racesDone:
-            self.currentRacesFetchedDisplay.addItem(QListWidgetItem(link))
+        for result in self.nativeParentWidget().racesDone:
+            self.currentRacesFetchedDisplay.addItem(QListWidgetItem(result[0]))
 
-    
+        

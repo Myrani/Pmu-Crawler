@@ -50,6 +50,11 @@ class MainWindow(QMainWindow):
         self.crawlerWindow = False
         self.racesWindow = False
 
+        self.lastWindow = ""
+
+        self.windowDict = {"dashboard":self.startDashboardWindow,"crawler":self.startCrawlerWindow,"monitoring":self.startMonitoringWindow,"races":self.startRacesWindow}
+
+    # Dynamic Ressources pathing compatible with PyInstaller
     def resource_path(self,relative_path):
         """ Get the absolute path to the resource, works for dev and for PyInstaller """
         try:
@@ -82,30 +87,39 @@ class MainWindow(QMainWindow):
     def print2(self,x):
         print(x,2)
    
-    ### Fonction de lancement des fênetres 
+    ### Windows startup functions
+
     def startDashboardWindow(self):
 
         self.dashboardWindow = DashboardWindow(parent=self)
         self.setCentralWidget(self.dashboardWindow)
+        self.lastWindow = "dashboard"
         self.show()
    
     def startMonitoringWindow(self):
 
         self.monitoringWindow = MonitoringWindow(parent=self)
         self.setCentralWidget(self.monitoringWindow)
+        self.lastWindow = "monitoring"
         self.show()
     
     def startCrawlerWindow(self):
 
         self.crawlerWindow = CrawlerWindow(parent=self)
         self.setCentralWidget(self.crawlerWindow)
+        self.lastWindow = "crawler"
         self.show()
     
     def startRacesWindow(self):
 
         self.racesWindow = RacesWindow(parent=self)
         self.setCentralWidget(self.racesWindow)
+        self.lastWindow = "races"
         self.show()
+
+    ### Refresh the last windows in case case of content update
+    def refreshCurrenWindow(self):
+        self.windowDict[self.lastWindow]()
 
 
     ### Fonction de lancement des Crawlers web
@@ -122,8 +136,8 @@ class MainWindow(QMainWindow):
 
     def loadRacesLinks(self,data):
         self.racesLinks = data
-        self.startCrawlerWindow()
+        self.refreshCurrenWindow()
 
     def loadRaceResults(self,data):
-        self.racesDone.append(str(data))
-        self.startCrawlerWindow()
+        self.racesDone.append(data)
+        self.refreshCurrenWindow()

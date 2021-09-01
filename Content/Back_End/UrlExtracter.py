@@ -4,11 +4,12 @@ from selenium.webdriver.firefox.options import Options
 
 import sys
 import os
+import gc
 
 from PyQt5.QtCore import QThread,QEventLoop,QTimer,QProcess
 from Content.Back_End.WorkerSignals import WorkerSignalsExtracter
 
-class UrlExtracterQThread(QProcess):
+class UrlExtracterQThread(QThread):
     
     def __init__(self, url,parent=None):
         super( UrlExtracterQThread, self).__init__()
@@ -31,39 +32,49 @@ class UrlExtracterQThread(QProcess):
 
     def run(self):
         #Instatiation du crawler
-        participantDict = {}
+        self.participantDict = {}
+        self.currentRaceName = ""
+        
+        self.fireFoxOptions = Options()
+        self.fireFoxOptions.add_argument("--headless")
 
-        fireFoxOptions = Options()
-        fireFoxOptions.add_argument("--headless")
-
-        driver = webdriver.Firefox(options=fireFoxOptions,executable_path=self.resource_path('geckodriver.exe'))
-        driver.get(self.url)
+        self.driver = webdriver.Firefox(options=self.fireFoxOptions,executable_path=self.resource_path('geckodriver.exe'))
+        self.driver.get(self.url)
     
-        html = driver.execute_script("return document.documentElement.outerHTML")
-        soup = BeautifulSoup(html, 'html.parser')
+        self.html = self.driver.execute_script("return document.documentElement.outerHTML")
+        self.soup = BeautifulSoup(self.html, 'html.parser')
 
-        #Trouve toutes les courses du jour
-        naming = True
-        currentName = ""
-        for tab in soup.findAll("table",  {"class":["table", "condensed", "striped", "ca" ]}):
+
+
+        #Trouve le nom de la course actuelle
+        for raceName in self.soup.findAll("h3",{"class" : "reunion-description"}):
+            self.currentRaceName = raceName.text
+
+
+        # Extrait les participants
+        self.naming = True
+        self.currentName = ""
+        for tab in self.soup.findAll("table",  {"class":["table", "condensed", "striped", "ca" ]}):
             for participant in tab.findAll("tr"):
-            
                 for spec in participant.findAll("td"):
                     try:
-                        if naming :
+                        if self.naming :
                             currentName = str(spec.text).replace('\n','').replace('\t','')    
-                            participantDict[currentName] = []
-                            naming = False
+                            self.participantDict[currentName] = []
+                            self.naming = False
                         else:
-                            participantDict[currentName].append(str(spec.text).replace('\n','').replace('\t',''))
+                            self.participantDict[currentName].append(str(spec.text).replace('\n','').replace('\t',''))
                     except Exception as e:
                         print(e)
                         pass
 
-            naming = True
+            self.naming = True
         #Les renvoies
 
-        participantDict = {key:value for key, value in participantDict.items() if len(value) > 5}
-        
-        self.signals.finished.emit(participantDict)
+        self.participantDict = {key:value for key, value in self.participantDict.items() if len(value) > 5}
 
+        self.signals.finished.emit([self.currentRaceName,self.participantDict])
+        
+        self.driver.quit()
+        
+        gc.collect()
