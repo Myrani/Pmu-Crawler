@@ -7,7 +7,7 @@ import os
 import gc
 
 from PyQt5.QtCore import QThread,QEventLoop,QTimer,QProcess
-from Content.Back_End.WorkerSignals import WorkerSignalsExtracter
+from Content.Back_End.Widgets.WorkerSignals import WorkerSignalsExtracter
 
 class UrlExtracterQThread(QThread):
     
@@ -24,7 +24,7 @@ class UrlExtracterQThread(QThread):
             # PyInstaller creates a temp folder and stores path in _MEIPASS
             base_path = sys._MEIPASS
         except Exception:
-            base_path = os.path.abspath("Content\\Back_End\\") 
+            base_path = os.path.abspath("Content\\Back_End\\Crawlers\\") 
             #"." 
             #"Content\\Back_End\\"
         return os.path.join(base_path, relative_path)

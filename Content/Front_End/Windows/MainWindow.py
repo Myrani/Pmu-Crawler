@@ -1,5 +1,6 @@
-from Content.Back_End.UrlExtracter import UrlExtracterQThread
-from Content.Back_End.UrlFinder import UrlFinderQThread
+from Content.Back_End.Widgets.DataHandler import DataHandler
+from Content.Back_End.Crawlers.UrlExtracter import UrlExtracterQThread
+from Content.Back_End.Crawlers.UrlFinder import UrlFinderQThread
 from Content.Front_End.Windows.RacesWindow import RacesWindow
 from Content.Front_End.Windows.DashboardWindow import DashboardWindow
 from Content.Front_End.Windows.CrawlerWindow import CrawlerWindow
@@ -21,11 +22,18 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setGeometry(10, 10, 1280, 720)
+        self.dataHandler = DataHandler(parent=self)
+        
+
         # Durable variable initialisation 
         self.racesFile = {}
         self.racesLinks = []
-        self.racesDone = []
+        self.racesDone = {}
         
+        # Load la save 
+
+        self.dataHandler.loadFile()
+
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
         self.setAttribute(Qt.WA_TranslucentBackground, True)
@@ -38,6 +46,9 @@ class MainWindow(QMainWindow):
         # Création de la Process Pool 
         self.threadpool = QThreadPool()
         self.threadpool.setMaxThreadCount(4)
+
+        self.dataHandler.showCurrentData()
+        self.dataHandler.showSavedData()
 
         # Instanciation de l'acceuil
         self.init_Windows()
@@ -139,5 +150,8 @@ class MainWindow(QMainWindow):
         self.refreshCurrenWindow()
 
     def loadRaceResults(self,data):
-        self.racesDone.append(data)
+        self.racesDone[data[0]] = data[1]
+        if len(self.racesDone) == len(self.racesLinks):
+            self.dataHandler.saveCurrentResults()
+            self.dataHandler.showSavedData()
         self.refreshCurrenWindow()

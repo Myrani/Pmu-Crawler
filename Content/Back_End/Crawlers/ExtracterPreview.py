@@ -2,6 +2,15 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import gc
+
+
+
+### Code permettant de test le résultat d'un crawl avant de l'implémenter dans le progamme
+### à utiliser comme programme stand alone
+
+
+
+
 def run():
     #Instatiation du crawler
     participantDict = {}
