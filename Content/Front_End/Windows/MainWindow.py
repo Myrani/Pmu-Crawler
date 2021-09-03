@@ -1,3 +1,4 @@
+from Content.Back_End.Widgets.Scheduler import Scheduler
 from Content.Back_End.Widgets.DataHandler import DataHandler
 from Content.Back_End.Crawlers.UrlExtracter import UrlExtracterQThread
 from Content.Back_End.Crawlers.UrlFinder import UrlFinderQThread
@@ -22,8 +23,10 @@ class MainWindow(QMainWindow):
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setGeometry(10, 10, 1280, 720)
-        self.dataHandler = DataHandler(parent=self)
         
+        # Jobs handlers
+        self.dataHandler = DataHandler(parent=self)
+        self.scheduleHandler = Scheduler(parent=self)
 
         # Durable variable initialisation 
         self.racesFile = {}
@@ -133,17 +136,29 @@ class MainWindow(QMainWindow):
         self.windowDict[self.lastWindow]()
 
 
-    ### Fonction de lancement des Crawlers web
+    ### Bulk Web Crawling functions
+    
+    # Gets the current races lists
     def startCrawlingFinder(self):
         self.worker = UrlFinderQThread(parent=self)
         self.worker.signals.finished.connect(self.loadRacesLinks)
         self.threadpool.start(self.worker.run)
 
+    # Gets all the races data
     def startCrawlingExtracter(self):
         for link in self.racesLinks:
             self.worker = UrlExtracterQThread(link,parent=self)
             self.worker.signals.finished.connect(self.loadRaceResults)
             self.threadpool.start(self.worker.run)
+
+    ### Precise url crawling functions
+
+    def startPreciseExtraction(self,raceUrl):
+       # self.worker = UrlFinderQThread(parent=self)
+       # self.worker.signals.finished.connect(self.loadRacesLinks)
+       # self.threadpool.start(self.worker.run)
+        pass
+
 
     def loadRacesLinks(self,data):
         self.racesLinks = data
