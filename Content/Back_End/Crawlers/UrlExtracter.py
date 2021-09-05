@@ -39,36 +39,43 @@ class UrlExtracterQThread(QThread):
         self.fireFoxOptions.add_argument("--headless")
 
         self.driver = webdriver.Firefox(options=self.fireFoxOptions,executable_path=self.resource_path('geckodriver.exe'))
-        self.driver.get(self.url)
+        
+        try:
+            self.driver.get(self.url)
     
-        self.html = self.driver.execute_script("return document.documentElement.outerHTML")
-        self.soup = BeautifulSoup(self.html, 'html.parser')
+            self.html = self.driver.execute_script("return document.documentElement.outerHTML")
+            self.soup = BeautifulSoup(self.html, 'html.parser')
 
 
 
-        #Trouve le nom de la course actuelle
-        for raceName in self.soup.findAll("h3",{"class" : "reunion-description"}):
-            self.currentRaceName = raceName.text
+            #Trouve le nom de la course actuelle
+            for raceName in self.soup.findAll("h3",{"class" : "reunion-description"}):
+                self.currentRaceName = raceName.text
 
 
-        # Extrait les participants
-        self.naming = True
-        self.currentName = ""
-        for tab in self.soup.findAll("table",  {"class":["table", "condensed", "striped", "ca" ]}):
-            for participant in tab.findAll("tr"):
-                for spec in participant.findAll("td"):
-                    try:
-                        if self.naming :
-                            currentName = str(spec.text).replace('\n','').replace('\t','')    
-                            self.participantDict[currentName] = []
-                            self.naming = False
-                        else:
-                            self.participantDict[currentName].append(str(spec.text).replace('\n','').replace('\t',''))
-                    except Exception as e:
-                        print(e)
-                        pass
-
+            # Extrait les participants
             self.naming = True
+            self.currentName = ""
+            for tab in self.soup.findAll("table",  {"class":["table", "condensed", "striped", "ca" ]}):
+                for participant in tab.findAll("tr"):
+                    for spec in participant.findAll("td"):
+                        try:
+                            if self.naming :
+                                currentName = str(spec.text).replace('\n','').replace('\t','').replace(' ','')    
+                                self.participantDict[currentName] = []
+                                self.naming = False
+                            else:
+                                self.participantDict[currentName].append(str(spec.text).replace('\n','').replace('\t','').replace(' ',''))
+                        except Exception as e:
+                            print(e)
+                            pass
+                    self.naming = True
+
+
+        except Exception as e:
+            self.driver.quit()        
+        
+        
         #Les renvoies
 
         self.participantDict = {key:value for key, value in self.participantDict.items() if len(value) > 5}

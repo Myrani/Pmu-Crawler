@@ -1,3 +1,4 @@
+from Content.Front_End.Windows.AnalysisWindow import AnalysisWindow
 from Content.Back_End.Widgets.Scheduler import Scheduler
 from Content.Back_End.Widgets.DataHandler import DataHandler
 from Content.Back_End.Crawlers.UrlExtracter import UrlExtracterQThread
@@ -36,6 +37,7 @@ class MainWindow(QMainWindow):
         # Load la save 
 
         self.dataHandler.loadFile()
+        self.racesDone = self.dataHandler.getDayData()
 
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
@@ -46,12 +48,12 @@ class MainWindow(QMainWindow):
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setStyleSheet("background-color:rgba(0, 0, 0, 1);")
 
-        # Création de la Process Pool 
+        # Création de la Thread Pool 
         self.threadpool = QThreadPool()
         self.threadpool.setMaxThreadCount(4)
 
-        self.dataHandler.showCurrentData()
-        self.dataHandler.showSavedData()
+        #self.dataHandler.showCurrentData()
+        #self.dataHandler.showSavedData()
 
         # Instanciation de l'acceuil
         self.init_Windows()
@@ -66,7 +68,11 @@ class MainWindow(QMainWindow):
 
         self.lastWindow = ""
 
-        self.windowDict = {"dashboard":self.startDashboardWindow,"crawler":self.startCrawlerWindow,"monitoring":self.startMonitoringWindow,"races":self.startRacesWindow}
+        self.windowDict = { "dashboard":self.startDashboardWindow,
+                            "crawler":self.startCrawlerWindow,
+                            "monitoring":self.startMonitoringWindow,
+                            "races":self.startRacesWindow,
+                            "analysis":self.startAnalysisWindow}
 
     # Dynamic Ressources pathing compatible with PyInstaller
     def resource_path(self,relative_path):
@@ -129,6 +135,12 @@ class MainWindow(QMainWindow):
         self.racesWindow = RacesWindow(parent=self)
         self.setCentralWidget(self.racesWindow)
         self.lastWindow = "races"
+        self.show()
+
+    def startAnalysisWindow(self):
+        self.analysisWindow = AnalysisWindow(parent=self)
+        self.setCentralWidget(self.analysisWindow)
+        self.lastWindow = "analysis"
         self.show()
 
     ### Refresh the last windows in case case of content update

@@ -38,6 +38,9 @@ class DataHandler():
             pickle.dump(self.parent.racesFile ,savefile)
 
 
+    def getDayData(self):
+        return self.parent.racesFile[self.currentDate]
+
     ### Self care function 
 
     def showCurrentData(self):

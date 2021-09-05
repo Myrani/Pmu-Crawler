@@ -18,7 +18,7 @@ class MenuBar(QWidget):
                             "Récupération":self.mainWindow.startCrawlerWindow,
                             "Surveillance":self.mainWindow.startMonitoringWindow,
                             "Courses":self.mainWindow.startRacesWindow,
-                            "X":self.mainWindow.startMonitoringWindow,
+                            "Analyse":self.mainWindow.startAnalysisWindow,
                             "Y":self.mainWindow.startCrawlerWindow}
         self.buttonList = []
         self.initUI()

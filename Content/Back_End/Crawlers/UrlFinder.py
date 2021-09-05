@@ -37,21 +37,29 @@ class UrlFinderQThread(QThread):
         self.fireFoxOptions = Options()
         self.fireFoxOptions.add_argument("--headless")
 
+         
         self.driver = webdriver.Firefox(options=self.fireFoxOptions,executable_path=self.resource_path('geckodriver.exe'))
+        
+        try:
+            
+            self.driver.get(self.base_url)
+            
+            html = self.driver.execute_script("return document.documentElement.outerHTML")
+            soup = BeautifulSoup(html, 'html.parser')
 
-        self.driver.get(self.base_url)
-    
-        html = self.driver.execute_script("return document.documentElement.outerHTML")
-        soup = BeautifulSoup(html, 'html.parser')
+            #Trouve toutes les courses du jour
+            for champ in soup.findAll("div", {"class": "timeline-container"}):
+                for course in champ.findAll("a"):
+                    try:
+                        self.liste_des_courses.append(str(course.get("href")))
+                    except Exception as e:
+                        print(e)
+                        pass
+        
+        except Exception:   
+            self.driver.quit()
 
-        #Trouve toutes les courses du jour
-        for champ in soup.findAll("div", {"class": "timeline-container"}):
-            for course in champ.findAll("a"):
-                try:
-                    self.liste_des_courses.append(str(course.get("href")))
-                except Exception as e:
-                    print(e)
-                    pass
+        
         #Les renvoies
         self.signals.finished.emit(self.liste_des_courses)
 

@@ -1,6 +1,9 @@
+from Content.Front_End.Widgets.MonitoringScrollArea import MonitoringScrollArea
+from PyQt5.QtCore import Qt
+from Content.Front_End.Widgets.MonitoringQLabel import MonitoringQLabel
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PyQt5.QtWidgets import QListWidget, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 
 class MonitoringWindow(QWidget):
@@ -28,9 +31,12 @@ class MonitoringWindow(QWidget):
         self.monitoringMenuLayout.addWidget(self.currentEventDecriptionLabel,0,0,1,1)
         self.currentEventDecriptionLabel.setStyleSheet("color:white;")
 
-        self.currentEventList = QLabel("")
-        self.monitoringMenuLayout.addWidget(self.currentEventList,1,0,4,3)
         self.backButton = QPushButton("Démarrer la surveillance des cotes")
         self.backButton.clicked.connect(
            lambda: self.nativeParentWidget().startDashboardWindow())
-        self.monitoringMenuLayout.addWidget(self.backButton,4,4,1,1)
+        self.monitoringMenuLayout.addWidget(self.backButton,7,4,1,1)
+
+        self.monitoringScrollArea = MonitoringScrollArea(parent=self)
+
+        self.monitoringMenuLayout.addWidget(self.monitoringScrollArea,1,0,6,6)
+
