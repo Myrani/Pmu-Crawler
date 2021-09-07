@@ -39,8 +39,10 @@ class DataHandler():
 
 
     def getDayData(self):
-        return self.parent.racesFile[self.currentDate]
-
+        try:
+            return self.parent.racesFile[self.currentDate]
+        except Exception as e:
+            return {}
     ### Self care function 
 
     def showCurrentData(self):

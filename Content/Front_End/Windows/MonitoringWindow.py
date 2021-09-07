@@ -1,9 +1,10 @@
+from Content.Front_End.Widgets.MonitoringCheckBox import MonitoringCheckBox
 from Content.Front_End.Widgets.MonitoringScrollArea import MonitoringScrollArea
 from PyQt5.QtCore import Qt
 from Content.Front_End.Widgets.MonitoringQLabel import MonitoringQLabel
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QListWidget, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PyQt5.QtWidgets import QCheckBox, QListWidget, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 
 class MonitoringWindow(QWidget):
@@ -39,4 +40,10 @@ class MonitoringWindow(QWidget):
         self.monitoringScrollArea = MonitoringScrollArea(parent=self)
 
         self.monitoringMenuLayout.addWidget(self.monitoringScrollArea,1,0,6,6)
+        self.addRaces()
 
+    def addRaces(self):
+        i = 0
+        for key,value in self.nativeParentWidget().racesDone.items():
+            self.monitoringScrollArea.containerLayout.addWidget(MonitoringCheckBox(key,parent=self),i,0,1,3)
+            i+=1

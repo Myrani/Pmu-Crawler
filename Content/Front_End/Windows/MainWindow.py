@@ -31,9 +31,18 @@ class MainWindow(QMainWindow):
 
         # Durable variable initialisation 
         self.racesFile = {}
+        
+        # Crawler 
         self.racesLinks = []
         self.racesDone = {}
         
+        # Monitoring
+
+        self.pingList15minutes = []
+        self.pingList30minutes = [] 
+        self.pingList60minutes = []
+
+
         # Load la save 
 
         self.dataHandler.loadFile()
