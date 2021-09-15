@@ -4,12 +4,16 @@ from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
 from PyQt5.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
-class RacesWindow(QWidget):
+class RaceDisplayWindow(QWidget):
 
     # Window to watchover the crawled results
-    def __init__(self,parent=None):
-        super(RacesWindow,self).__init__(parent=parent)
+    def __init__(self,name,data,parent=None):
+        super(RaceDisplayWindow,self).__init__(parent=parent)
 
+        self.name = name
+        self.data = data
+
+        print(self.data)
         self.systemBar = SystemBar(parent=self)
         self.menuBar = MenuBar(parent=self)
         self.racesMenu = QGroupBox(self)
@@ -29,17 +33,13 @@ class RacesWindow(QWidget):
         self.racesMenuLayout.addWidget(self.racesScrollArea,0,0,5,7)
 
         i = 0
-        d = 0
-        for course,result in self.nativeParentWidget().racesDone.items():
-            object = RacesToolTip(course,result,parent=self)
-            self.racesScrollArea.containerLayout.addWidget(object,d,i,1,1)
-            if i == 3:
-                d+=1
-                i=-1
-            i+=1
-
+        for key,result in self.data.items():
+            object = QLabel(str(result))
+            self.racesScrollArea.containerLayout.addWidget(object,i,0,1,1)
+            i +=1
+        print(self.racesScrollArea.container.children())
 
         self.backButton = QPushButton("Courses")
         self.backButton.clicked.connect(
-           lambda: self.nativeParentWidget().startDashboardWindow())
+           lambda: self.nativeParentWidget().startRaceDisplayWindow(self.name,self.data))
         self.racesMenuLayout.addWidget(self.backButton,0,11,1,1)

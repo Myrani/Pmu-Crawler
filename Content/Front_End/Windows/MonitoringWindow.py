@@ -13,6 +13,8 @@ class MonitoringWindow(QWidget):
     def __init__(self,parent=None):
         super(MonitoringWindow,self).__init__(parent=parent)
 
+        self.checkMonitoringCheckBoxesList = []
+
         self.systemBar = SystemBar(parent=self)
         self.menuBar = MenuBar(parent=self)
         self.monitoringMenu = QGroupBox(self)
@@ -23,27 +25,54 @@ class MonitoringWindow(QWidget):
         self.monitoringMenu.setStyleSheet(
             "QGroupBox {border:3px solid black;background-color:rgba(0,0,0,0.6)}")
 
-        self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)}")
+        self.setStyleSheet("QLabel{color:white;background-color:rgba(0,0,0,0)} QPushButton{color:white;background-color:rgba(0,0,0,0)} QCheckBox{color:white;background-color:rgba(0,0,0,0)}" )
         self.initUIContent()
         self.show()
 
-    def initUIContent(self):
-        self.currentEventDecriptionLabel = QLabel("Liste des évènements notables durant la surveillance")
-        self.monitoringMenuLayout.addWidget(self.currentEventDecriptionLabel,0,0,1,1)
-        self.currentEventDecriptionLabel.setStyleSheet("color:white;")
+        
 
-        self.backButton = QPushButton("Démarrer la surveillance des cotes")
-        self.backButton.clicked.connect(
-           lambda: self.nativeParentWidget().startDashboardWindow())
-        self.monitoringMenuLayout.addWidget(self.backButton,7,4,1,1)
+    def initUIContent(self):
+        self.descriptionLabel = QLabel("Selection")
+        self.monitoringMenuLayout.addWidget(self.descriptionLabel,0,0,1,10)
+
+        self.setAll15QCheckBox = QCheckBox("15 Minutes",parent=self)
+        self.setAll15QCheckBox.stateChanged.connect(lambda:self.onCheckAllBoxClick(15))
+        self.monitoringMenuLayout.addWidget(self.setAll15QCheckBox,1,0,1,3)
+
+        self.setAll30QCheckBox = QCheckBox("30 Minutes",parent=self)
+        self.setAll30QCheckBox.stateChanged.connect(lambda:self.onCheckAllBoxClick(30))
+        self.monitoringMenuLayout.addWidget(self.setAll30QCheckBox,1,3,1,3)
+
+        self.setAll60QCheckBox = QCheckBox("60 Minutes",parent=self)
+        self.setAll60QCheckBox.stateChanged.connect(lambda:self.onCheckAllBoxClick(60))
+        self.monitoringMenuLayout.addWidget(self.setAll60QCheckBox,1,6,1,3)
 
         self.monitoringScrollArea = MonitoringScrollArea(parent=self)
+        self.monitoringMenuLayout.addWidget(self.monitoringScrollArea,2,0,10,10)
+        
+        self.backButton = QPushButton("Démarrer la surveillance des cotes")
+        self.backButton.clicked.connect(lambda: self.startMonitoring)
+        self.monitoringMenuLayout.addWidget(self.backButton,13,4,1,1)
 
-        self.monitoringMenuLayout.addWidget(self.monitoringScrollArea,1,0,6,6)
+        
         self.addRaces()
+
+        #print(self.checkMonitoringCheckBoxesList)
+
 
     def addRaces(self):
         i = 0
         for key,value in self.nativeParentWidget().racesDone.items():
-            self.monitoringScrollArea.containerLayout.addWidget(MonitoringCheckBox(key,parent=self),i,0,1,3)
+            object = MonitoringCheckBox(key,parent=self)
+            self.checkMonitoringCheckBoxesList.append(object)
+            self.monitoringScrollArea.containerLayout.addWidget(object,i,0,1,3)
             i+=1
+
+
+    def onCheckAllBoxClick(self,timemark):
+        for box in self.checkMonitoringCheckBoxesList:
+            box.boxesDict[timemark].setChecked(not box.boxesDict[timemark].isChecked())
+
+
+    def startMonitoring(self):
+        self.nativeParentWidget() # Do the thing 

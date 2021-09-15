@@ -1,9 +1,9 @@
 from PyQt5.QtCore import QRect, Qt
 from PyQt5.QtWidgets import QCheckBox, QFormLayout, QHBoxLayout, QListWidgetItem, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
-class MonitoringScrollArea(QScrollArea):
+class RacesScrollArea(QScrollArea):
     def __init__(self, parent=None):
-        super(MonitoringScrollArea,self).__init__(parent=parent)
+        super(RacesScrollArea,self).__init__(parent=parent)
         self.container = QGroupBox(self)
         self.containerLayout = QGridLayout()
         self.container.setLayout(self.containerLayout)
@@ -16,8 +16,3 @@ class MonitoringScrollArea(QScrollArea):
         self.setWidget(self.container)
 
         self.setVerticalScrollBar(self.scrollBar)
-
-
-
-
-

@@ -1,3 +1,4 @@
+from Content.Front_End.Windows.RaceDisplayWindow import RaceDisplayWindow
 from Content.Front_End.Windows.AnalysisWindow import AnalysisWindow
 from Content.Back_End.Widgets.Scheduler import Scheduler
 from Content.Back_End.Widgets.DataHandler import DataHandler
@@ -81,7 +82,8 @@ class MainWindow(QMainWindow):
                             "crawler":self.startCrawlerWindow,
                             "monitoring":self.startMonitoringWindow,
                             "races":self.startRacesWindow,
-                            "analysis":self.startAnalysisWindow}
+                            "analysis":self.startAnalysisWindow,
+                            "raceDisplay":self.startRaceDisplayWindow}
 
     # Dynamic Ressources pathing compatible with PyInstaller
     def resource_path(self,relative_path):
@@ -150,6 +152,12 @@ class MainWindow(QMainWindow):
         self.analysisWindow = AnalysisWindow(parent=self)
         self.setCentralWidget(self.analysisWindow)
         self.lastWindow = "analysis"
+        self.show()
+
+    def startRaceDisplayWindow(self,name,data):
+        self.racesWindow = RaceDisplayWindow(name,data,parent=self)
+        self.setCentralWidget(self.racesWindow)
+        self.lastWindow = "raceDisplay"
         self.show()
 
     ### Refresh the last windows in case case of content update

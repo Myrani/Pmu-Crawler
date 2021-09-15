@@ -5004,3 +5004,1601 @@ JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILU
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
+1631101910722	geckodriver	INFO	Listening on 127.0.0.1:50366
+1631101913843	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile2FXmAv"
+*** You are running in headless mode.
+1631101914508	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile2FXmAv\\search.json.mozlz4", (void 0)))
+1631101916282	Marionette	INFO	Listening on port 50374
+1631101916620	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631101922375	Marionette	INFO	Stopped listening on port 50374
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631101928804	geckodriver	INFO	Listening on 127.0.0.1:50455
+1631101931844	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile4p7nSI"
+*** You are running in headless mode.
+1631101932336	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile4p7nSI\\search.json.mozlz4", (void 0)))
+1631101934560	Marionette	INFO	Listening on port 50489
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390097,name=PContent::Msg_InitBackgroJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631101941798	Marionette	INFO	Stopped listening on port 50488
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+topped listening on port 50489
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failu
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, message1631101943905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileSvDAec"
+*** You are running in headless mode.
+1631101944269	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open1631101945245	mozrunner::runner	INFO	Running command: "C:\\P1631101945390	mozrunner::runner	INFO	Running comma16311019451631101945652	mozrunner::runner	INFO	Running 1631101946020	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631101951539	Marionette	INFO	Stopped listening on port 50770
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 61631101952975	RemoteAgent	WARN	TLS certificate errors will b1631101953176	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631101958008	Marionette	INFO	Stopped listening on port 50801631101958283	Marionette	INFO	Stopped listening on port 50811
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 
+###!!! [Parent][RunMessage] Error: Channel closing: too la
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+50793
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.remo[GFX1-]: RenderCoJavaScript error: resource://gre/modules/UrlClassifierLiconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileJzHP3Z\\search.json.mozlz4", (void 0)))
+1631101967437	Marionette	INFO	Listening on port 51018
+163111631101970231	mozrunner::runner	INFO	Running command: "C:\\P1631101970574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla F1631101970708	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.wa[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (1631101972541	Marionette	INFO	Listening on port 51130
+1631101972926	RemoteAgent	WARN	TLS certificate errors will b1631101973266	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631101976716	Marionette	INFO	Stopped listening on port 51131631101977957	Marionette	INFO	Stopped listening on port 51138
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileQQEW1H\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sageChanJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631101979482	Marionette	INFO	Stopped listening on port 51229
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: 1631101981007	mozrunner::runner	INFO	Running command: "C:\\P1631101981363	mozrunner::runner	INFO	Running command: "C:\\P1631101981794	mozrunner::runner	INFO	Running command: "C:\\P1631101983319	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileoyiG11"
+*** You are running in headless mode.
+1631101983918	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileoyiGJavaScript warning: https://inscripti1631101986151	Marionette	INFO	Listening on port 51456
+1631101986557	RemoteAgent	WAJavaScript warning: https://in1631101987126	Marionette	INFO	JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631101988447	Marionette	INFO	Stopped listening on port 51401631101989116	Marionette	INFO	Stopped listening on port 51456
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+essage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofilen6nCD7\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631101988184	geckodriver	INFO	Listening on 127.0.0.1:51625
+1631101991213	mozrunner::runner	INFO	Running command: "C:\\P1631101991532	mozrunner::runner	INFO	Running command: "C:\\P1631101992210	mozrunner::runner	INFO	Running command: "C:\\P1631101992957	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileS8zC75"
+*** You are running in headle[GFX1-]: R1631101993516	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631101994637	MarionettJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachableJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631101999214	Marionette	INFO	Stopped listening on port 51661631102000451	Marionette	INFO	Stopped listening on port 51678
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListMa
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+osing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileaJdaFG\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631101999238	geckodriver	INFO	Listening on 127.0.0.1:51897
+1631102002445	mozrunner::runner	INFO	Running command: "C:\\P1631102003500	mozrunner::runner	INFO	Running command: "C:\\P1631102004126	mozrunner::runner	INFO	Running command: "C:\\P1631102004316	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local[GFX1-]: R1631102004729	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Loca163111631102006945	Marionette	INFO	Listening on port 51963
+1631102007325	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631102010829	Marionette	INFO	Stopped listening on port 51961631102011461	Marionette	INFO	Stopped listening on port 51975
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: wait1631102013131	mozrunner::runner	INFO	Running command: "C:\\Pr1631102013613	mozrunner::runner	INFO	Running command: "C:\\P1631102014780	mozrunner::runner	INFO	Running command: "C:\\P1631102015369	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileFFHSQk"
+*** You are running in headle[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631102021235	Marionette	INFO	Listening on port 52250
+1631102021261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102025268	Marionette	INFO	Stopped listening on port 52251631102025967	Marionette	INFO	Stopped listening on port 52273
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\rust_mozprofileLAoqhJ\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631102025983	geckodriver	INFO	Listening on 127.0.0.1:52473
+1631102029008	mozrunner::runner	INFO	Running command: "C:\\P1631102029194	mozrunner::runner	INFO	Running command: "C:\\P1631102029745	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: R1631102030404	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Loca163111631102031755	Marionette	INFO	Listening on port 52510
+163111631102032921	MarionettJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102037305	Marionette	INFO	Stopped listening on port 52510
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too lat
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ine 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+2755
+1631102039830	mozrunner::runner	INFO	Running command: "C:\\P1631102039990	mozrunner::runner	INFO	Running command: "C:\\P1631102040869	mozrunner::runner	INFO	Running command: "C:\\P1631102041053	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631102041455	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631102043431	MarionettJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631102048786	Marionette	INFO	Stopped listening on port 52801631102049407	Marionette	INFO	Stopped listening on port 52814
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ozrunner::runner	INFO	Running command: "C:\\P1631102051619	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileb7QpQK"
+1631102052591	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox1631102053242	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile7Hip7L"
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: Se[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: NoJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102057611	Marionette	INFO	Stopped listening on port 53091
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.remov1631102058293	Marionette	INFO	Stopped listening on port 53116
+JavaScript error: resource:///modules/InJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102059634	Marionette	INFO	Stopped listening on port 53139
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections1631102061663	mozrunner::runner	INFO	Running command: "C:\\P1631102062267	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilerv0k8J"
+*** You are running in headle[GFX1-]: R1631102062721	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631102063695	Marionette	INFO	Listening on port 53364
+163111631102064471	Marionette	INFO	Listening on port 53391
+1631102064960	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631102068244	Marionette	INFO	Stopped listening on port 53364
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\T
+###!!! [Parent][RunMessage] Error: Channel closing: too late 1631102068968	Marionette	INFO	Stopped listening on port 53431
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierLi[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists,1631102072341	mozrunner::runner	INFO	Running command: "C:\\P1631102072402	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" 1631102072873	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file ex1631102074187	Marionette	INFO	Stopped listening on port 53599
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returne1631102074500	Marionette	INFO	Listening on port 53680
+1631102074545	RemoteAgent	WARN	TLS certificate errors will b1631102074587	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102080896	Marionette	INFO	Stopped listening on port 5368163110208JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102084065	Marionette	INFO	Stopped listening on port 53693
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+efault framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileAvy7Hp\\search.json.mozlz4", (void 0)))
+1631102084185	Marionette	INFO	Listening on port 53821
+163111631102089998	mozrunner::runner	INFO	Running command: "C:\\P1631102089998	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\*** You are running in headless mode.
+1631102090406	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Notconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (1631102092168	Marionette	INFO	1631102093686	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102117968	Marionette	INFO	Stopped listening on port 53980
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+tions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631102098608	Marionette	INFO	Stopped listening on port 54105
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+r shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631219417606	geckodriver	INFO	Listening on 127.0.0.1:54026
+1631219420697	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileD1Jd4X"
+*** You are running in headless mode.
+1631219421401	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileD1Jd4X\\search.json.mozlz4", (void 0)))
+1631219423249	Marionette	INFO	Listening on port 54034
+1631219423415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219429724	Marionette	INFO	Stopped listening on port 54034
+console.error: PushServiceWebSocket: 
+  _beginWSSetup: Not in shutdown state! Current state
+  2
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631219440991	geckodriver	INFO	Listening on 127.0.0.1:54110
+1631219444029	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileSuOLgB"
+*** You are running in headless mode.
+1631219444805	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileSuOLgB\\search.json.mozlz4", (void 0)))
+1631219446966	Marionette	INFO	Listening on port 54145
+1631219447261	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219460595	Marionette	INFO	Stopped listening on port 54145
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+oup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+in-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219460077	Marionette	INFO	Stopped listening on port 54141631219462863	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofiletjkt41"
+*** You are running in headless mode.
+1631219463272	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofiletjkt41\\search.json.mozlz4", (void 0)))
+1631219464634	Marionette	INFO	Listening on port 54490
+1631219464934	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219476207	Marionette	INFO	Stopped listening on port 54490
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Coul1631219466164	Marionette	INFO	Listening on port 54510
+1631219466675	RemoteAgent	WARN	TLS certificate errors will b1631219466856	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachableJavaScript warning: https://in1631219478328	Marionette	INFO	Stopped listening on port 54510
+JavaScript error: resource:///modules/Interactions.jsm, l1631219478739	Marionette	INFO	Stopped listening on port 54521631219480406	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileDJZImd"
+*** You are running in headless mode.
+1631219480874	Mario1631219481350	mozrunner::runner[GFX1-]: RenderCompositorSWGL1631219482098	mozrunner::runner	INFO	Running command: "C:\\P1631219482492	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631219482695	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderComposiJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219486915	Marionette	INFO	Stopped listening on port 54857
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILUJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219498754	Marionette	INFO	Stopped listening on port 54885
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+uffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilelryE4L\\search.json.mozlz4", (void 0)))
+console.error: "Could not write session state file " (new Error("_initWorker called too early! Please read the session file from disk first.", "resource:///modules/sessionstore/SessionFile.jsm", 375)) "_initWorker/<@resource:///modules/sessionstore/SessionFile.jsm:375:15\n_initWorker@resourceconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileD3XqkP\\search.json.mozlz4", (void 0)))
+1631219512734	Marionette	INFO	Listening on port 55187
+1631219512884	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219517927	Marionette	INFO	Stopped listening on port 55187
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+g on port 55130
+163121631219515312	mozrunner::runner	INFO	Running command: "C:\\P1631219515435	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:1631219517022	Marionette	INFO	Stopped listening on port 55130
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleSeconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631219518144	Marionette	INFO	Listening on port 55329
+1631219518569	RemoteAgent	WARN	TLS certificate errors will b1631219518646	RemoteAgent	WA1631219518647	geckodriver	INFO	Listening on 127.0.0.1:55407
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219524650	Marionette	INFO	Stopped listening on port 55334
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219528382	Marionette	INFO	Stopped listening on port 55486
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure codeJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219530670	Marionette	INFO	Stopped listening on port 55495
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+ou are running in headle[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebu1631219532457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileMYZL8A"
+*** You are running in headless mode.
+1631219532903	Marionette	INFO	Marionette JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219538345	Marionette	INFO	Stopped listening on port 55646
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+e errors will be ignored for this session16JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219541977	Marionette	INFO	Stopped listening on port 55769
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileMYZL8A\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too1631219543471	Marionette	INFO	Stopped listening on port 55824
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\AppData\\Local\\Temp\\rust_mozprofile5qYQEm"
+*** You are running in headless mode.
+1631219542541	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile5qYQEm\\search.json.mozlz4", (void 0)))
+1631219544329	Marionette	INFO	Listening on port 55970
+1631219544714	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631219550763	Marionette	INFO	Stopped listening on port 55941631219556661	Marionette	INFO	Stopped listening on port 55970
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rch.json.mozlz4", (void 0)))
+1631219549384	Marionette	INFO	Listening on port 56115
+1631219549558	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631219556346	Marionette	INFO	Stopped listening on port 56071631219558593	Marionette	INFO	Stopped listening on port 56115
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilePHR4Ti\\search.json.mozlz4", (void 0)))
+1631219556757	Marionette	INFO	Listening on port 56257
+1631219556851	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/sta1631219560364	mozrunner::runner	INFO	Running command: "C:\\P1631219560699	mozrunner::runner	INFO	Running command: "C:\\P1631219562445	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileBLh7Ho"
+*** You are running in headless mode.
+1631219562968	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileBLh7Ho\\search.json.mozlz4", (void 0)))
+1631219561631219564571	JavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631219567342	Marionette	INFO	Stopped listening on port 56351631219568005	Marionette	INFO	Stopped listening on port 56361631219568803	Marionette	INFO	Stopped listening on port 56410
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waitiJavaScript warning
+###!!! [Parent][RunMessage] Error: Channel closing: too late t1631219571330	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe1631219572112	mozrunner::runner	INFO	Running command: "C:\\P1631219572777	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile0tWq33"
+*** You are running in headle[GFX1-]: R1631219573290	Marionette	INFO	Marionette enab1631219574982	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileAgYi7j"
+*** You are running in headless mode.
+1631JavaScript warning:console.error: Region.jsm: [GFX1-]: RenderCompositorSWGL failed mapping default fraJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219586163	Marionette	INFO	Stopped listening on port 56673
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel1631219587614	Marionette	INFO	Stopped listening on port 56689
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ne 1: unreachable code after return statement
+1631219588318	Marionette	INFO	Stopped listening on port 56757
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 1631219590111	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilea3XWnE"
+*** You are running in headless mode.
+1631219591695	mozrunner::runner	INFO	Running command: "C:\\P1631219592314	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile6MoaLb"
+*** You are running in headle[GFX1-]: R1631219592949	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettingsJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219597131	Marionette	INFO	Stopped listening on port 56978
+JavaScript error: resource:///modules/Interactions.jsm, line JavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631219601518	Marionette	INFO	Stopped listening on port 57035
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390076,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileHb2tQd"
+*** You are running in headless mode.
+1631219601678	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No1631219604595	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilecqtc7L"
+*** Yo1631219605436	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla F[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (n1631219607472	Marionette	INFO	Stopped listening on port 57324
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/mJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219615764	Marionette	INFO	Stopped listening on port 57413
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleO1631219616132	Marionette	INFO	Stopped listening on port 57432
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Compon
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ort 57480
+163121631219611491	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla FJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219615352	Marionette	INFO	Stopped listening on port 57480
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631219617642	Marionette	INFO	Stopped listening on port 57611
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ too late to send/recv, messages will be lost
+
+1631219616595	geckodriver	INFO	Listening on 127.0.0.1:57703
+1631219619666	mozrunner::runner	INFO	Running command: "C:\\P1631219619998	mozrunner::runner	INFO	Running command: "C:\\P1631219620079	mozrunner::runner	INFO	Running command: "C:\\P1631219621493	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileBzxPzj"
+*** You are running in headless mode.
+1631219622158	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileBzxPJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631219629748	Marionette	INFO	Stopped listening on port 57741631219630996	Marionette	INFO	Stopped listening on port 57750
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resourc1631219631468	Marionette	INFO	Stopped listening on port 57791
+JavaScript error: resource:///modules1631219631736	Marionette	INFO	Stopped listening on port 57754
+JavaScript error: resource:///modules/Interactions.jsm, line 209: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ lost
+
+1631550406993	geckodriver	INFO	Listening on 127.0.0.1:51088
+1631550410094	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile46VYDu"
+*** You are running in headless mode.
+1631550411156	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile46VYDu\\search.json.mozlz4", (void 0)))
+1631550413097	Marionette	INFO	Listening on port 51096
+1631550413353	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550419293	Marionette	INFO	Stopped listening on port 51096
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631550421996	geckodriver	INFO	Listening on 127.0.0.1:51177
+1631550425037	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileh1zeGl"
+*** You are running in headless mode.
+1631550425599	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileWdfKsH\\search.json.mozlz4", (void 0)))
+1631550428227	Marionette	INFO	Listening on port 51210
+1631550428268	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550436687	Marionette	INFO	Stopped listening on port 51208
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+oup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+avaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileyOZNRt\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631550435146	geckodriver	INFO	Listening on 127.0.0.1:51448
+1631550438178	mozrunner::runner	INFO	Running command: "C:\\P1631550439363	mozrunner::runner	INFO	Running command: "C:\\P1631550439763	mozrunner::runner	INFO	Running command: "C:\\P1631550440543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileImJXbi"
+*** You are running in headle[GFX1-]: R1631550441391	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileImJXbi\\search.json.mozlz4", (void 0163151631550445722	MarionettJavaScript warning: https://insc1631550447599	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550459986	Marionette	INFO	Stopped listening on port 51525
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rofile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilegmQZo0"
+*** You are running in headless mode.
+1631550449705	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilegmQZo0\\search.json.mozlz4", (void 0)))
+1631550462825	Marionette	INFO	Listening on port 51696
+1631550462977	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550467011	Marionette	INFO	Stopped listening on port 51696
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030:1631550467887	Marionette	INFO	Stopped listening on port 51743
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Comp[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631550468493	Marionette	INFO	Listening on port 51855
+163151631550469458	Marionette	INFO	Listening on port 51879
+163151631550471722	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla F1631550472350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no1631550473419	Marionette	INFO	Stopped listening on port 51879
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileTMZVBI\\searc1631550473957	RemoteAgent	WA1631550474796	Marionette	INFO	Listening on port 52024
+16315JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2JavaScript warning: https://inscription.genybet.fr/_next/static/chu1631550477763	Marionette	INFO	Stopped listening on port 52012
+JavaScript error: re1631550478614	Marionette	INFO	Stopped listening on port 52024
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cann[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileKH1BHs\\search.json.mozlz4", (void 0)))
+1631550480425	Marionette	INFO	Listening on port 52172
+1631550480546	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550483303	Marionette	INFO	Stopped listening on port 52172
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules1631550483638	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default frameb1631550485133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileU0tzZS16*** You are running in headless mode.
+1631550485592	1631550487406	mozrunner::runJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631550491462	Marionette	INFO	Stopped listening on port 52295
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+tic/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550492851	Marionette	INFO	Stopped listening on port 52362
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modu1631550493684	Marionette	INFO	Stopped listening on port 52432
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+es will be lost
+
+ condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631550492219	geckodriver	INFO	Listening on 127.0.0.1:52530
+1631550495262	mozrunner::runner	INFO	Running command: "C:\\P1631550495735	mozrunner::runner	INFO	Running command: "C:\\P1631550496761	mozrunner::runner	INFO	Running command: "C:\\P1631550497562	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilen0rw8k"
+*** You are running in headle[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631550499789	Marionette	INFO	Listening on port 52592
+163151631550500814	Marionette	INFO	Listening on port 52624
+1631550500934	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631550509088	Marionette	INFO	Stopped listening on port 52591631550510646	Marionette	INFO	Stopped listening on port 52624
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileeuxWTS\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631550501744	geckodriver	INFO	Listening on 127.0.0.1:52771
+1631550504861	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilevivZR2"
+*** You are running in headless mode.
+1631550505677	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists,1631550511989	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631550512482	RemoteAgent	WARN	TLS certificate errors will b1631550512520	Marionette	INFJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+163151631550516316	mozrunner::runner	INFO	Running command: "C:\\P1631550516574	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631550516761	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no1631550518038	Marionette	INFO	Stopped listening on port 52849
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returne1631550518358	Marionette	INFO	Listening on port 52957
+163151631550518892	Marionette	INFO	Listening on port 52971
+1631550519270	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631550523870	Marionette	INFO	Stopped listening on port 52957
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofilesWgrMg\protections.sqlite
+: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Tconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileI38zUl\\search.json.mozlz4", (vJavaScript1631550524675	Marionette	INFO	Listening on port 53116
+1631550524813	RemoteAgent	WARN	TLS certificate errors will be ignored for this sessio163JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550529794	Marionette	INFO	Stopped listening on port 53116
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, mess1631550530191	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the JavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631550536162	Marionette	INFO	Stopped listening on port 53241631550536919	Marionette	INFO	Stopped listening on port 53250
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\Local\\Temp\\rust_mozprofileLd9uPg\\search.json.mozlz4", (void 0)))
+1631550536455	Marionette	INFO	Listening on port 53412
+1631550536776	geckodriver	INFO	Listening on 127.0.0.1:53476
+1631550539825	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefo1631550540433	mozrunner::runner	INFO	Running command: "C:\\P1631550540929	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631550540929	Marione*** You are running in headle[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCo1631550543155	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilej7vYWX"
+*** You are running in headless modJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382JavaScript warning: https://inscription.genybet.fr/_next/staJa1631550548297	Marionette	INFO	Stopped listening on port 53525
+JavaScript error: resourc1631550550404	Marionette	INFO	Stopped listening on port 5353163JavaScript error: resource:///modules/Interactions.jsm, lineJavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 
+###!!! [Parent][RunMessage] Error: Channel closing: too la
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+7	Marionette	INFO	Stopped listening on port 53630
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned 1631550552241	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileLUj8U0"
+*** You are running in headless mode.
+1631550552637	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundErro1631550554783	mozrunner::runner	INFO	Running command: "C:\\P1631550554889	mozrunner::runner	INFO	Running command: "C:\\P1631550554902	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-noJavaScript warning: https://inscription.genybet.fr/_ne[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile7ltuyr\\search.json.mozlz4", (void 0)))
+1631550561638	Marionette	INFO	Listening on port 53837
+1631550561764	RemoteAgent	WARN	TLS certificate errors will b1631550561906	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631550569145	Marionette	INFO	Stopped listening on port 53831631550570658	Marionette	INFO	Stopped listening on port 53841
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+(NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+his session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550571629	Marionette	INFO	Stopped listening on port 53991631550573713	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilev7xAu6"
+*** You are running in headless mode.
+1631550574105	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilev7xAu6\\search.json.mozlz4", (void 0)))
+1631550575468	Marionette	INFO	Listening on port 54142
+1631550575785	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631550578258	Marionette	INFO	Stopped listening on port 54142
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1631705628691	geckodriver	INFO	Listening on 127.0.0.1:55131
+1631705631797	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileRVBz10"
+*** You are running in headless mode.
+1631705633424	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileRVBz10\\search.json.mozlz4", (void 0)))
+1631705637256	Marionette	INFO	Listening on port 55139
+1631705638415	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705647465	Marionette	INFO	Stopped listening on port 55139
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631705672168	geckodriver	INFO	Listening on 127.0.0.1:55222
+1631705675235	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile8vjNlb"
+*** You are running in headless mode.
+1631705675867	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilefQz7qb\\search.json.mozlz4", (void 0)))
+1631705683457	Marionette	INFO	Listening on port 55254
+1631705685500	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705693891	Marionette	INFO	Stopped listening on port 55251
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+arent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost1631705696776	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe1631705698613	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1631705698615	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionet*** You are running in headless mode.
+1631705699659	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozp1631705704294	RemoteAgent	WARN	TLS certificate 1631705705146	Marionette	INFO	Listening oJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, lJavaScript warning: https://inscription.genybet.1631705712765	Marionette	INFO	Stopped listening on port 55513
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ng for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631705714918	mozrunner::runner	INFO	Running command: "C:\\P1631705715391	mozrunner::runner	INFO	Running command: "C:\\P1631705715814	mozrunner::runner	INFO	Running command: "C:\\P1631705716651	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileYPjAxo"
+*** You are running in headle[GFX1-]: R1631705717261	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileYPjAJavaScript warning: https://inscripti1631705719340	MarionettJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705723489	Marionette	INFO	JavaScript warning: https://in1631705727379	Marionette	INFO	Stopped listening on port 55811
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+oveIdleObserver]
+checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+3	geckodriver	INFO	Listening on 127.0.0.1:56045
+1631705727464	mozrunner::runner	INFO	Running command: "C:\\P1631705729015	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile8mn4wq"
+*** You are running in headless mode.
+1631705730904	mozrunner::runner	INFO	Running command: "C:\\P1631705731384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631705731478	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettingsJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705737774	Marionette	INFO	Stopped listening on port 56103
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631705738897	mozrunner1631705739295	Marionette	INFO	Stopped listening on port 56159
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, lin1631705739424	Marionette	INF1631705741656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile03e0Uv"
+*** You are running in headless mode.
+1631705742272	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozp1631705743498	mozrunner::runner	INFO	R1631705744914	Marionette	INFO	Stopped listening on port 56344
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: CompoJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705748502	Marionette	INFO	Stopped listening on port 56400
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resourc1631705749533	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1631705750529	Marionette	INFO	Stopped listening on port 56431631705751502	Marionette	INFO	Stopped listening on port 56446
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x801631705752739	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileHcfEwi"
+*** You are running in headless mode.
+1631705753228	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile1631705755176	Marionette	INFO	Stopped listening on port 56608
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705758282	Marionette	INFO	Stopped listening on port 56687
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileHcfEwi\protect1631705758494	Marionette	INFO	Listening on port 56760
+1631705761172	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705765524	Marionette	INFO	Stopped listening on port 56732
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlit
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ata\Local\Temp\rust_mozprofilejUk1Rw\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages wil1631705767133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofiletSWlvi1631705767505	Marionette	INFO	Stopped lis1631705767629	Mario1631705769563	mozrunner::runner	INFO	Running command: "C:\\P1631705769734	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631705770006	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631705772042	Marionette	INFO	Stopped listening on port1631705772250	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705777770	Marionette	INFO	Stopped listening on port 57052
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdoJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705778789	Marionette	INFO	Stopped listening on port 57111
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+6998	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu1631705780477	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileaiBRq2"
+*** You are running in headless mode.
+1631705780845	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No1631705781854	mozrunner::runner	INFO	Running command: "C:\\P1631705782665	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile2XGJNZ"
+*** You are running in headleJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705786810	Marionette	INFO	Stopped listening on port 57359
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shuJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705788202	Marionette	INFO	Stopped listening on port 57391631705789752	Marionette	INFO	Stopped listening on port 57416
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+)))
+1631705787204	Marionette	INFO	Listening on port 57529
+1631705787426	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/sta1631705791260	mozrunner::runner	INFO	Running command: "C:\\P1631705792081	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1631705793751	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile8LK7vD"
+*** You are running in headless mode.
+1631705794307	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Use1631705795721	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1631705796234	Marionette	INFO	Listening on port 57725JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d27138266JavaScript warning: https://inscription.genybet.fr/_next/sta1631705799076	Marionette	INFO	Stopped listening on port 57670
+JavaScript error: resource:1631705800250	Marionette	INFO	Stopped listening on port 57725
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: caJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705802021	Marionette	INFO	Stopped listening on port 57784
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ssages will be lost
+
+ing: too late to send/recv, messages will be lost
+
+1631705798245	geckodriver	INFO	Listening on 127.0.0.1:57862
+1631705802115	mozrunner::runner	INFO	Running command: "C:\\P1631705803340	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileKMhDh7"
+*** You are running in headless mode.
+1631705803740	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileKMhDh7\\search.json.mozlz4", (void 0)))
+1631705807002	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foregrounJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705813446	Marionette	INFO	Stopped listening on port 57938
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Listening on port 58048
+163171631705815478	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla FJavaScript warning: https://inscription.genybet.fr/_next/sta1631705817523	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1631705818863	Marionette	INFO	Stopped listening on port 58048
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\UJavaScript warning: https://inscription.genybet.fr/_next/sta1631705821350	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla FJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705832345	Marionette	INFO	Stopped listening on port 58224
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+earchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile38Oskc\\seJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705836298	Marionette	INFO	Stopped listening on port 58328
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile9UrVtV\\search.json.mozlz4", (void 0)))
+1631705830028	Marionette	INFO	Listening on port 58462
+1631705830507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705839537	Marionette	INFO	Stopped listening on port 58462
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: 1631705840219	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileLRW01X"
+*** You are running in headle[GFX1-]: R1631705840703	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file1631705842219	Marionette	INFO	Stopped listening on port 58571631705843668	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\MyJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705846418	Marionette	INFO	Stopped listening on port 58641631705848403	Marionette	INFO	Stopped listening on port 58659
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/CrashMonitor.jsm, line 201: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages1631705849441	Marionette	INFO	Stopped listening on port 58765
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessa1631705850466	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileMRkAJY"
+*** You are running in headless mode.
+1631705850867	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Us1631705852486	Marionette	INFO	Stopped listening on port 58852
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE:1631705852553	R1631705852598	mozrunner::runner	INFO	Running command: "C:\\Program Files\JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705855501	Marionette	INFO	Stopped listening on port 58937
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ault framebuffer, no1631705856528	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile5POIZA"
+*** You are running in headlesJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, lJavaScript warning: https://inscription.genybet.1631705859541631705859569	mozrunner::runner	INFO	Running commanJavaScript error: resource:///modules/I1631705860534	Marionette	INFO	Stopped listening on port 59013
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.remo[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFo1631705862150	Marionette	INFO	Stopped listening on port 59106
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004001631705862268	RemoteAgent	WARN	TLS certificate errors will be JavaScript error1631705863856	mozrunner::runner	INFO	Running command: "C:\\P1631705864610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.e1631705865063	Marionette	INFO	Stopped listening on port 59189
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure 1631705865268	Mar1631705866085	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_1631705866692	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705874368	Marionette	INFO	Stopped listening on port 59291631705876647	Marionette	INFO	Stopped listening on port 59311
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+arn: SearchSettings: "gJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705880476	Marionette	INFO	Stopped listening on port 59340
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClass1631705880658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileTgDY1p"
+*** You are running in headless mode.
+1631705881272	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileTgDY1p\\search.json.mozlz4", (void 0)))
+1631705882630	Marionette	INFO	Listening on port 59630
+1631705882732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d27138266271631705884620	mozrunner::runner	INFO	Running command: "C:\1631705886664	Marionette	INFO	Stopped listening on port 59630
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileTgDY1p\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: 1631705888305	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable1631705890892	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileJcPhZx"
+*** You are running in headless mode.
+1631705891402	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileJcPhZx\\search.json.mozlz4", (void 0)))
+1631705892918	Marionette	1631705894284	Marionette	INFO	Stopped listening on port 59843
+JavaScript error: resource:///modules/Interactions.jsm,JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705897960	Marionette	INFO	Stopped listening on port 59900
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileJcPhZx\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e" "--marionette" "--headless" "-foregrounJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705899947	Marionette	INFO	Stopped listening on port 59961631705900383	Marionette	INFO	Stopped listening on port 59981
+JavaScript error: resource:/1631705902453	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileFml9Hh"
+*** You are running in headless mode.
+1631705902917	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Us1631705904265	Marionette	INFO	Stopped listening on port 60097
+JavaScript error: resource:/1631705904424	Marionette	INFO	Listening on port 60183
+1631705904533	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705907381	Marionette	INFO	Stopped listening on port 60183
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: t1631705908517	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileBa94wJ"
+*** You are running in headless mode.
+1631705909380	Marionette	INFO	Marionette JavaScrip[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new pro1631705914883	Marionette	INFO	Stopped listening on port 60221631705915263	Marionette	INFO	Stopped listening on port 60225
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 
+###!!! [Parent][RunMessage] Error: ChanneJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705922090	Marionette	INFO	Stopped listening on port 60351
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+21818	mozrunner::runner	INFO	Running command: "C:\\P1631705922231	mozrunner::runne1631705922615	Marionette	INFO	Stopped listening on port 60366
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.remo[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631705923899	Marionette	INFO	Listening on port 60542
+163171631705926363	mozrunner::runner	INFO	Running command: "C:\\P1631705926860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla FJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705928375	Marionette	INFO	Stopped listening on port 60541631705929591	Marionette	INFO	Stopped listening on port 60548
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqliteJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631705932181	Marionette	INFO	Stopped 1631705932840	mozrunne1631705933060	Marionette	INFO	Stopped listening on port 60670
+JavaScript error:1631705933515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozpr[GFX1-]: RenderCompositorSWGL failed mapping default1631705933945	Marioneconsole.warn: SearchSettings:[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the fil1631705934852	Marionette	INFO	Listening on port 60831
+1631705934933	RemoteAgent	WARN	TLS certificate 1631705935519	Marionette	INFO	Listening oJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, lJavaScript warning: https://inscription.genybet.1631705938326	Marionette	INFO	Stopped listening on port 60831
+JavaScript error: resource:///modules/I1631705939369	Marionette	INFO	Stopped listening on port 60839
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+on.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chun1631705942693	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla 1631705943449	mozrunner::runner	INFO	Running command: "C:\\ProgJavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.remov*** You[GFX1-]: RenderCompositorSWGL fa1631705943965	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Coul1631705945464	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "1631705945551	Marionette	INFO	Listening on port 61128
+163170JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424dJavaScript warning: https://inscription.genybet.fr/_next/static/chun1631705949208	Marionette	INFO	Stopped listening on port 61114
+JavaScript error: r1631705949618	Marionette	INFO	Stopped listening on port 61128
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUseJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631705952443	Marionette	INFO	Stopped listening on port 61184
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.j1631705953514	mozrunner::runner	INFO	Running command: "C:\\P1631705953732	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631705953933	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCo1631705956370	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe1631705957075	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozpr[GFX1-]: RenderCompositorSWGL failJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424console.w1631705962998	Marionette	INFO	Stopped listening on port 61415
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.j1631705963753	Marionette	INFO	Stopped listening on port 61517
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource:///modules/Interactions.jsm, line 230:
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqli
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+e1JzmAt\protections.sqlite
+1631705964371	geckodriver	INFO	Listening on 127.0.0.1:61688
+1631705967466	mozrunner::runner	INFO	Running command: "C:\\P1631705967632	mozrunner::runner	INFO	Running command: "C:\\P1631705967754	mozrunner::runner	INFO	Running command: "C:\\P1631705967891	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\fir1631705967986	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Coul1631705973873	Marionette	INFO	Listening on port 61714
+163171631705974548	Marionette	INFO	Listening on port 61720
+1631705978036	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d27138266console.log: WebExtensions: reset-default-search: starting.console.log: WebExtensions: reset-default-search: starting.console.log: WebExtensions: reset-default-search: starting.console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1631706635538	geckodriver	INFO	Listening on 127.0.0.1:62129
+1631706638586	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileR11mxU"
+*** You are running in headless mode.
+1631706638995	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileR11mxU\\search.json.mozlz4", (void 0)))
+1631706640330	Marionette	INFO	Listening on port 62137
+1631706640666	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631706691305	Marionette	INFO	Stopped listening on port 62137
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631706719791	geckodriver	INFO	Listening on 127.0.0.1:62256
+1631706722822	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileUtbACi"
+*** You are running in headless mode.
+1631706723362	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile5C9ZNr\\search.json.mozlz4", (void 0)))
+1631706725728	Marionette	INFO	Listening on port 62289
+1631706726038	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631706890559	Marionette	INFO	Stopped listening on port 62290
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+\\rust_mozprofileJWm85C"
+*** You are running in headless mode.
+1631706800210	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileJWm85C\\search.json.mozlz4", (void 0)))
+1631706801487	Marionette	INFO	Listening on port 62654
+1631706801905	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631706869992	Marionette	INFO	Stopped listening on port 62654
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ileGRenhl\\search.json.mozlz4", (void 0)))
+1631706835539	Marionette	INFO	Listening on port 62748
+1631706835949	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631706861960	Marionette	INFO	Stopped listening on port 62748
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631706871037	geckodriver	INFO	Listening on 127.0.0.1:62893
+1631706875847	mozrunner::runner	INFO	Running command: "C:\\P1631706875864	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\*** You are running in headless mode.
+1631706876398	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631706878413	Marionette	INFO	Listening on port 62923
+1631706878551	RemoteAgent	WARN	TLS certificate errors will b1631706878567	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631706952423	Marionette	INFO	Stopped listening on port 6292console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+mponent returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+mpositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileS63LaV\\search.json.mozlz4", (void 0)))
+1631706897279	Marionette	INFO	Listening on port 63138
+1631706897320	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+er	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631706957017	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631706958374	Marionette	INFO	Listening on port 63297
+1631706958681	RemoteAgent	WARN	TLS certificate errors will b1631706958819	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d27138266console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+reset-default-search: No addons in our list are installed.
+\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileRHkSXN"
+*** You are running in headless mode.
+1631707041900	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileRHkSXN\\search.json.mozlz4", (void 0)))
+1631707043254	Marionette	INFO	Listening on port 63490
+1631707043510	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707122612	Marionette	INFO	Stopped listening on port 63490
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631707132607	geckodriver	INFO	Listening on 127.0.0.1:63621
+1631707135648	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileQdAlET"
+*** You are running in headless mode.
+1631707136220	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileQdAlET\\search.json.mozlz4", (void 0)))
+1631707138308	Marionette	INFO	Listening on port 63651
+1631707138379	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707304915	Marionette	INFO	Stopped listening on port 63653
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+rror("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileQrWu5Z\\search.json.mozlz4", (void 0)))
+1631707171666	Marionette	INFO	Listening on port 63937
+1631707172113	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707217310	Marionette	INFO	Stopped listening on port 63937
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileR7zxwI\\search.json.mozlz4", (void 0)))
+1631707183509	Marionette	INFO	Listening on port 64011
+1631707183702	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707483720	Marionette	INFO	Stopped listening on port 64011
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+dError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileIR0JDC\\search.json.mozlz4", (void 0)))
+1631707189074	Marionette	INFO	Listening on port 64078
+1631707189429	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707489457	Marionette	INFO	Stopped listening on port 64078
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+mpositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileEwWqhd\\search.json.mozlz4", (void 0)))
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631707232239	Marionette	INFO	Listening on port 64195
+1631707232601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707312912	Marionette	INFO	Stopped listening on port 64195
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+nette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileTAfI9R\\search.json.mozlz4", (void 0)))
+1631707310382	Marionette	INFO	Listening on port 64368
+1631707310700	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Erro1631707316766	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707389435	Marionette	INFO	Stopped listening on port 64368
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+318848	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707428179	Marionette	INFO	Stopped listening on port 64418
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ppData\\Local\\Temp\\rust_mozprofileFwTMPl"
+*** You are running in headless mode.
+1631707393777	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileFwTMPl\\search.json.mozlz4", (void 0)))
+1631707395251	Marionette	INFO	Listening on port 64572
+1631707395454	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707562520	Marionette	INFO	Stopped listening on port 64572
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ppData\\Local\\Temp\\rust_mozprofileLtoqWj"
+*** You are running in headless mode.
+1631707432315	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileLtoqWj\\search.json.mozlz4", (void 0)))
+1631707433727	Marionette	INFO	Listening on port 64670
+1631707434012	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707491794	Marionette	INFO	Stopped listening on port 64670
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+1631707492426	geckodriver	INFO	Listening on 127.0.0.1:64789
+1631707495478	mozrunner::runner	INFO	Running command: "C:\\P1631707495631	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631707495912	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631707497545	Marionette	INFO	Listening on port 64812
+1631707497669	RemoteAgent	WARN	TLS certificate errors will b1631707497710	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631707613946	Marionette	INFO	Stopped listening on port 64811631707625188	Marionette	INFO	Stopped listening on port 64818
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+s file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilezbNXpH\\search.json.mozlz4", (void 0)))
+1631707502836	Marionette	INFO	Listening on port 64903
+1631707503256	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707626249	Marionette	INFO	Stopped listening on port 64903
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ppData\\Local\\Temp\\rust_mozprofileyl59Df"
+*** You are running in headless mode.
+1631707566467	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileyl59Df\\search.json.mozlz4", (void 0)))
+1631707567784	Marionette	INFO	Listening on port 65126
+1631707568167	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707624701	Marionette	INFO	Stopped listening on port 65126
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ppData\\Local\\Temp\\rust_mozprofileo0svJC"
+*** You are running in headless mode.
+1631707618249	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileo0svJC\\search.json.mozlz4", (void 0)))
+1631707619764	Marionette	INFO	Listening on port 65247
+1631707619936	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707758607	Marionette	INFO	Stopped listening on port 65247
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+rofileyLUY6G"
+*** You are running in headless mode.
+163console.warn: SearchSettings: "get: No settings[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Coul1631707633355	Marionette	INFO	Listening on port 65322
+1631707633475	RemoteAgent	WARN	TLS certificate errors will b16317console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1631707639153	MarionettJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631707763771	Marionette	INFO	Stopped listening on port 65322
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x8JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+id 0)))
+1631707711616	Marionette	INFO	Listening on port 49246
+1631707711939	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707822513	Marionette	INFO	Stopped listening on port 49246
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+nette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileUQEfgh\\search.json.mozlz4", (void 0)))
+1631707764093	Marionette	INFO	Listening on port 49336
+1631707764405	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707819266	Marionette	INFO	Stopped listening on port 49336
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 829: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+\Users\\Myrani\\AppData\\Local\\Te1631707769741	Marionette	INFO	Listening on port 49398
+1631707770191	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631707824016	Marionette	INFO	Stopped listening on port 49398
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+ "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileT6L1eb"
+*** You are running in headless mode.
+1631707823526	Marionette	INFO	Marionette enabled
+[GFX1-]: R1631707826373	mozrunner::runner	INFO	Running command: "C:\\P1631707827097	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilenFIIbA"
+*** You are running in headle[GFX1-]: R163170781631707827974	mozrunner::runner	INFO	Runni[GFX1-]: RenderCompositorSWGL failed mappJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707846416	Marionette	INFO	Stopped listening on port 49650
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+unreachable code after return statement
+1631707849639	Marionette	INFO	Stopped listening on port 49730
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707867224	Marionette	INFO	Stopped listening on port 49747
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+7853687	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631707854000	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettingsJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707873347	Marionette	INFO	Stopped listening on port 50056
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messag1631707901835	Marionette	INFO	Stopped listening on port 50109
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+el closing: too late to send/recv, messages will be lost
+
+s file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileRMqOdM\\search.json.mozlz4", (void 0)))
+1631707872814	Marionette	INFO	Listening on port 50367
+1631707873236	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707895247	Marionette	INFO	Stopped listening on port 50367
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+mpositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileDmTpJz\\search.json.mozlz4", (void 0)))
+1631707882033	Marionette	INFO	Listening on port 50441
+163171631707884710	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla FJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707911185	Marionette	INFO	Stopped listening on port 50441
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+dError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile5kOUuW\\search.json.mozlz4", (void 0)))
+1631707890635	Marionette	INFO	Listening on port 50522
+1631707891082	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707917935	Marionette	INFO	Stopped listening on port 50522
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x23002F,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707915393	Marionette	INFO	Stopped listening on port 50684
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+mpositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilel6XUTy\\search.json.mozlz4", (void 0)))
+1631707907550	Marionette	INFO	Listening on port 50755
+1631707907801	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/sta1631707915162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\1631707916271	Marionette	INFO	Stopped listening on port 50755
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x3900console.warn: SearchSettings: "get: No settings file exists,1631707919412	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilexdNKrx"
+*** You are running in headless mode.
+1631707919812	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the fileJavaScript error: resource:///module1631707921962	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\TeJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreach[GFX1-]: RenderCompositorSWGL fail1631707924805	Marionette	INFO	Stopped listening on port 50965
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, li1631707925154	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707929300	Marionette	INFO	Stopped listening on port 51021
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: SJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after r
+###!!! [Parent]1631707930811	Marionette	INFO	Stopped listening on port 51122
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileOcMc1K\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ in headle[GFX1-]: R1631707931115	Marionette	INFO	Marionette enabled
+1631707933480	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilewnbDg8"
+*** You are running in headless mode.
+1631707933919	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: NoJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707937189	Marionette	INFO	Stopped listening on port 51244
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707940080	Marionette	INFO	Stopped listening on port 51342
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completio1631707941169	Marionette	INFO	Stopped listening on port 51388
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FA1631707941694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilez3Jyhm"
+*** You are running in headless mode.
+1631707942212	Marionette	INFO	Marionette enabled
+1631707944005	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileT5dc5w"
+*** You are running in headless mode.
+1631707944475	Mari1631707945201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "console.warn: SearchSettings: "get: NoJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631707946356	Marionette	INFO	Stopped listening on port 51521631707948070	Marionette	INFO	Stopped listening on port 51546
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707950166	Marionette	INFO	Stopped listening on port 51618
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_1631707950791	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "1631707951683	Marionette	INFO	Stopped listening on port 51665
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returne[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\Ap
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv,1631707957553	Marionette	INFO	Listening on port 51800
+1631707958484	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707963420	Marionette	INFO	Stopped listening on port 51800
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  Message: Error: Data is not ready.
+  Stack:
+    get data@resource://gre/modules/JSONFile.jsm:186:13
+getListeners@resource://gre/modules/PushBroadcastService.jsm:66:5
+observe@resource://gre/modules/AsyncShutdown.jsm:575:16
+
+t warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631707967007	Marionette	INFO	Stopped listening on port 51824
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+sitioning state
+  Message: Error: Data is not ready.
+  Stack:1631707967614	Marionette	INFO	Listening on port 51960
+1631707967668	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631707972753	Marionette	INFO	Stopped listening on port 51960
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+t][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631708343608	geckodriver	INFO	Listening on 127.0.0.1:52104
+1631708346660	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileaMlyjw"
+*** You are running in headless mode.
+1631708347148	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileaMlyjw\\search.json.mozlz4", (void 0)))
+1631708348612	Marionette	INFO	Listening on port 52112
+1631708348755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708354521	Marionette	INFO	Stopped listening on port 52112
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1631708357326	geckodriver	INFO	Listening on 127.0.0.1:52192
+1631708360359	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile7fRZzN"
+*** You are running in headless mode.
+1631708360918	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofilehPUWWH\\search.json.mozlz4", (void 0)))
+1631708363272	Marionette	INFO	Listening on port 52226
+1631708363748	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708373464	Marionette	INFO	Stopped listening on port 52223
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sData[table] is undefined
+] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631708372215	geckodriver	INFO	Listening on 127.0.0.1:52478
+1631708375250	mozrunner::runner	INFO	Running command: "C:\\P1631708376157	mozrunner::runner	INFO	Running command: "C:\\P1631708376507	mozrunner::runner	INFO	Running command: "C:\\P1631708377323	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: R1631708378162	Marionette	INFOpping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631708379842	Marionette	INFO	Listening on port 52523
+163171631708380989	Marionette	INFO	Listening on port 52546
+1631708381304	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631708386805	Marionette	INFO	Stopped listening on port 52521631708387653	Marionette	INFO	Stopped listening on port 52546
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofiletwZwo5\protections.sqlite
+=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofilew1OnsW\protections.sqlite
+1631708388427	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozpr1631708391206	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--mario1631708391622	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-p1631708391805	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No [GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not op1631708393565	Marionette	INFO	Listening on port 52911
+1631708393879	RemoteAgent	WARN	TLS certificate errors wil1631708394026	Marionette	INFO	LJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unrJavaScript warning: https://inscriptio1631708398684	Marionette	INFO	Stopped listening on port 52911
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofileIMjstc\protections.sqlite
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+derCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettinJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708401572	Marionette	INFO	Stopped listening on port 53027
+JavaScript error: resource:///modul1631708402648	RemoteAgent	WARN	TLS certificate errors will be ign1631708403605	mozrunnerJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708409830	Marionette	INFO	Stopped listening on port 53081
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+ox.exe" "--marionette" "--headless" "-foreground" "-no-rem1631708412507	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return sta1631708417249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile8C7vQk"
+*** You are running in headless mode.
+1631708417841	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Us1631708418873	Marionette	INFO	Stopped listening on port 53259
+JavaScript error: resource:/1631708419275	Marionette	INFO	Listening on port 53382
+1631708419324	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708422186	Marionette	INFO	Stopped listening on port 53382
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, m1631708422815	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileyAu7pV"
+*** You are running in headless mode.
+1631708423370	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("JavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631708433390	Marionette	INFO	Stopped listening on port 53461631708433635	Marionette	INFO	Stopped listening on port 53468
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILUR1631708433982	Marionette	INFO	Stopped listening on port 53507
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+d 0)))
+1631708428437	Marionette	INFO	Listening on port 53629
+1631708428600	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708434622	Marionette	INFO	Stopped listening on port 53621631708437411	mozrunner::runner	INFO	Running command: "C:\\Prog1631708437717	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\1631708437771	Marionette*** You are running in hea[GFX1-]: RenderCompositorSWGL failed mapping default framebuffe[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\1631708439579	Marionette	INFO	Listening on port 53752
+1631708440101	RemoteAgent	WARN	TLS certificate errors will be i1631708440415	RemoteAgentJavaScript warning: https://inscription.genybet.fr/_next/staticJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271381631708448221	Marionette	INFO	Stopped listening on port 53752
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x390077,name=PContent::Msg_DestroyBrowsingContextGroup) Closed channel: cannot send/recv
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ion condition "protections.sqlite#0: waiting for shutdown"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+en the file at C:\\Users\\Myrani\\AppData\\Local\\Te1631708440673	Marionette	INFO	Listening on port 53766
+163171631708441188	Marionette	INFO	Listening on port 53778
+1631708441225	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d271382661631708447370	Marionette	INFO	Stopped listening on port 53761631708447931	Marionette	INFO	Stopped listening on port 53778
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+1631708451047	mozrunner::runner	INFO	Running command: "C:\\P1631708451512	mozrunner::runner	INFO	Running command: "C:\\P1631708451913	mozrunner::runner	INFO	Running command: "C:\\P1631708452116	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Coul1631708454045	Marionette	INFO	Listening on port 54046
+163171631708454652	MarionettJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631708459065	Marionette	INFO	JavaScript warning: https://in1631708460718	Marionette	INFO	Stopped listening on port 54041631708460846	Marionette	INFO	Stopped listening on port 54051631708461163	Marionette	INFO	Stopped listening on port 54062
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is unde
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631708462930	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofil1631708464906	mozrunner::runner	INFO	Running command: "C:\\P1631708464956	mozrunner::runner	INFO	Running command: "C:\\P1631708465073	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-rem1631708465502	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile3GbY9c\\search.json.mozlz4", (void 0)))
+1631708471574	Marionette	INFO	Listening on port 54352
+1631708471884	RemoteAgent	WARN	TLS certificate errors will b1631708471925	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631708479025	Marionette	INFO	Stopped listening on port 54352
+JavaScript error: resource:///modules/Interactions.jsm, l1631708480228	Marionette	INFO	Stopped listening on port 54364
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+sages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileYQ76vm\\search.json.mozlz4", (void 0)))
+1631708477728	Marionette	INFO	Listening on port 54543
+1631708477797	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708481099	Marionette	INFO	Stopped listening on port 54541631708483466	mozrunner::runner	INFO	Running command: "C:\\Prog1631708484168	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani1631708485114	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-fo[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new 1631708485776	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFou1631708486867	RemoteAgentJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708494216	Marionette	INFO	Stopped listening on port 54690
+1631708495315	Marionette	INFO	Stopped listening on port 54701
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component retur1631708496355	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofiler2dG9i"
+*** You are runn1631708497768	mozrunner::runner	INFO	Running command: "C:\\P1631708498194	mozrunner::runner	INFO	Running command: "C:\\P1631708499166	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileI990cU"
+*** You are running in headle[GFX1-]: R1631708500046	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Myrani\\1631708502011	Marionette	INFO	Stopped listening on port 54970
+JavaScript erro1631708502160	MarionettJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://in1631708505244	Marionette	INFO	Stopped listening on port 54991631708505797	Marionette	INFO	Stopped listening on port 55001631708506625	Marionette	INFO	Stopped listening on port 55039
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlit[GFX1-]: RenderComposito1631708509135	mozrunner::runner	INFO	Running command: "C:\\P1631708509720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofile5LgHVS"
+*** You are running in headle[GFX1631708510565	mozrunner::runner	INFO	Running command: "C[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not1631708511375	Marionette	INFO	Stopped listening on port 55237
+JavaScript error: resource:/[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+consol1631708512407	RemoteAgent	WAJavaScript warning: https://inscription.genybet.fr/_next/staJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708517640	Marionette	INFO	Stopped listening on port 55316
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error:1631708517954	Marionette	INFO	Stopped listening on port 55335
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"
+: SearchSettings: "get: No settings file 1631708518575	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofileyLPL0n"
+*** You are running in headless mode.
+1631708519017	Marionette	INFO	MarioJavaScript warn[GFX1-]: RenderCompositorSWGL failed mapping 1631708521742	mozrunner::runner	INFO	Running command: "C:\\P1631708521936	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\ru1631708522340	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebu[GFX1-]: Rendconsole.warn: SearchSettings: "get: No settings file exists,console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Not1631708524781	Marionette	INFO	Stopped listening on port 55578
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708531823	Marionette	INFO	Stopped listening on port 55656
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+(NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofilejr2TzW\protections.sqlite
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+nning command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\Myrani\\AppData\\Local\\Temp\\rust_mozprofiletygMbj"
+*** You are running in headless mode.
+1631708529709	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettingsJavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708532959	Marionette	INFO	Stopped lis1631708533050	Marionette	INFO	Listening on port 55850
+1631708533399	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://inscription.genybet.fr/_next/static/chunks/main-24424d2713826627d477.js, line 1: unreachable code after return statement
+1631708536714	Marionette	INFO	Stopped listening on port 55850
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+les/Sqlite.jsm, line 1030: Error: Sqlite.jsm has been shutdown. Cannot open connection to: C:\Users\Myrani\AppData\Local\Temp\rust_mozprofilevnR0Ki\protections.sqlite

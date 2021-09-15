@@ -79,7 +79,7 @@ class UrlExtracterQThread(QThread):
         #Les renvoies
 
         self.participantDict = {key:value for key, value in self.participantDict.items() if len(value) > 5}
-
+        self.participantDict["url"] = self.url 
         self.signals.finished.emit([self.currentRaceName,self.participantDict])
         
         self.driver.quit()
