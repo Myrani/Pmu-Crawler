@@ -2,7 +2,7 @@ from Content.Front_End.Widgets.RacesToolTip import RacesToolTip
 from Content.Front_End.Widgets.RacesScrollArea import RacesScrollArea
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 class RacesWindow(QWidget):
 
@@ -30,8 +30,8 @@ class RacesWindow(QWidget):
 
         i = 0
         d = 0
-        for course,result in self.nativeParentWidget().racesDone.items():
-            object = RacesToolTip(course,result,parent=self)
+        for course in self.nativeParentWidget().curratedRacesDone:
+            object = RacesToolTip(course,parent=self)
             self.racesScrollArea.containerLayout.addWidget(object,d,i,1,1)
             if i == 3:
                 d+=1

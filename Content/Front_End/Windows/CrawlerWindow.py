@@ -1,7 +1,7 @@
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QListWidget, QListWidgetItem, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
-from PyQt5.QtCore import QThreadPool
+from PySide2.QtWidgets import QListWidget, QListWidgetItem, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtCore import QThreadPool
 from Content.Back_End.Crawlers.UrlFinder import UrlFinderQThread
 from Content.Back_End.Crawlers.UrlExtracter import UrlExtracterQThread
 class CrawlerWindow(QWidget):

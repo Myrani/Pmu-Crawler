@@ -1,5 +1,5 @@
-from PyQt5.QtCore import QRect, Qt
-from PyQt5.QtWidgets import QCheckBox, QFormLayout, QHBoxLayout, QListWidgetItem, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtCore import QRect, Qt
+from PySide2.QtWidgets import QCheckBox, QFormLayout, QHBoxLayout, QListWidgetItem, QScrollArea, QScrollBar, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 class MonitoringScrollArea(QScrollArea):
     def __init__(self, parent=None):

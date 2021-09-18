@@ -2,6 +2,7 @@ import sys
 import os
 from datetime import date
 import pickle
+from Content.Back_End.Objects.Race import Race 
 
 class DataHandler():
     
@@ -38,11 +39,22 @@ class DataHandler():
             pickle.dump(self.parent.racesFile ,savefile)
 
 
+    # returns data from current Scheduler day 
+
     def getDayData(self):
         try:
             return self.parent.racesFile[self.currentDate]
         except Exception as e:
             return {}
+
+
+    def generateRacesListFromDayData(self):
+        racelist = []
+        for name,data in self.getDayData().items():
+            racelist.append(Race(name,data))
+
+        return racelist
+
     ### Self care function 
 
     def showCurrentData(self):

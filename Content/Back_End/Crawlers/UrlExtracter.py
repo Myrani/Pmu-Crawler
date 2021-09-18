@@ -6,13 +6,13 @@ import sys
 import os
 import gc
 
-from PyQt5.QtCore import QThread,QEventLoop,QTimer,QProcess
-from Content.Back_End.Widgets.WorkerSignals import WorkerSignalsExtracter
+from PySide2.QtCore import QObject, QThread,QEventLoop,QTimer,QProcess
+from Content.Back_End.Objects.WorkerSignals import WorkerSignalsExtracter
 
-class UrlExtracterQThread(QThread):
+class UrlExtracterQThread(QObject):
     
     def __init__(self, url,parent=None):
-        super( UrlExtracterQThread, self).__init__()
+        super( UrlExtracterQThread, self).__init__(parent=parent)
         self.url = "https://www.genybet.fr" + url
         self.parent = parent
         print("Moi :",self)

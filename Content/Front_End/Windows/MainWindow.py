@@ -1,53 +1,65 @@
+
 from Content.Front_End.Windows.RaceDisplayWindow import RaceDisplayWindow
 from Content.Front_End.Windows.AnalysisWindow import AnalysisWindow
-from Content.Back_End.Widgets.Scheduler import Scheduler
-from Content.Back_End.Widgets.DataHandler import DataHandler
+from Content.Back_End.Objects.Scheduler import Scheduler
+from Content.Back_End.Objects.DataHandler import DataHandler
 from Content.Back_End.Crawlers.UrlExtracter import UrlExtracterQThread
 from Content.Back_End.Crawlers.UrlFinder import UrlFinderQThread
 from Content.Front_End.Windows.RacesWindow import RacesWindow
 from Content.Front_End.Windows.DashboardWindow import DashboardWindow
 from Content.Front_End.Windows.CrawlerWindow import CrawlerWindow
 from Content.Front_End.Windows.MonitoringWindow import MonitoringWindow
-
+from Content.Back_End.Objects.Worker import Worker
 import os
 import sys
 
 
-from PyQt5.QtWidgets import QMainWindow, QGraphicsOpacityEffect, QLabel, QDesktopWidget
-from PyQt5.QtCore import QThreadPool, Qt, QPoint
-from PyQt5.QtGui import QPixmap
+from PySide2.QtWidgets import QMainWindow, QGraphicsOpacityEffect, QLabel, QDesktopWidget
+from PySide2.QtCore import QThreadPool, Qt, QPoint
+from PySide2.QtGui import QPixmap
 
 
 
 class MainWindow(QMainWindow):
     
     # First window generated, stocks all the long terms variable of the session between different windows
+    
+    
     def __init__(self):
         super(MainWindow, self).__init__()
         self.setGeometry(10, 10, 1280, 720)
-        
+            
         # Jobs handlers
-        self.dataHandler = DataHandler(parent=self)
-        self.scheduleHandler = Scheduler(parent=self)
+        self.dataHandler = DataHandler(parent=self)     # Saving/loading data special object
+        self.scheduleHandler = Scheduler(parent=self)   # Monitoring races special object
 
-        # Durable variable initialisation 
+        # Durable variable initialization from save file
         self.racesFile = {}
         
-        # Crawler 
+        # Crawler cache variables
         self.racesLinks = []
         self.racesDone = {}
+
         
-        # Monitoring
+        # Monitoring cache variables
 
         self.pingList15minutes = []
         self.pingList30minutes = [] 
         self.pingList60minutes = []
 
 
-        # Load la save 
-
+        # Load data from save file
         self.dataHandler.loadFile()
         self.racesDone = self.dataHandler.getDayData()
+        self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
+
+        for race in self.curratedRacesDone:
+            print(race.getName())
+            print(race.getUrl())
+            print(race.getTimer())
+            print(race.getRawData())
+
+
 
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
@@ -58,26 +70,25 @@ class MainWindow(QMainWindow):
         self.setWindowFlags(Qt.FramelessWindowHint)
         self.setStyleSheet("background-color:rgba(0, 0, 0, 1);")
 
-        # Création de la Thread Pool 
+        # Creation of the QThreadPool that will host Crawlers processes 
         self.threadpool = QThreadPool()
         self.threadpool.setMaxThreadCount(4)
 
         #self.dataHandler.showCurrentData()
         #self.dataHandler.showSavedData()
 
-        # Instanciation de l'acceuil
+        # Init futher main windows parametters
         self.init_Windows()
 
+         # Start program with the Dashboard window first and show it
         self.startDashboardWindow()
     
     def init_Windows(self):
-        self.dashboardWindow = False
-        self.monitoringWindow = False
-        self.crawlerWindow = False
-        self.racesWindow = False
 
+        # Last windows to that was shown, serves to refresh to show new data 
         self.lastWindow = ""
 
+        # Quick Dynamic access dictionary to starWindows functions
         self.windowDict = { "dashboard":self.startDashboardWindow,
                             "crawler":self.startCrawlerWindow,
                             "monitoring":self.startMonitoringWindow,
@@ -154,8 +165,8 @@ class MainWindow(QMainWindow):
         self.lastWindow = "analysis"
         self.show()
 
-    def startRaceDisplayWindow(self,name,data):
-        self.racesWindow = RaceDisplayWindow(name,data,parent=self)
+    def startRaceDisplayWindow(self,race):
+        self.racesWindow = RaceDisplayWindow(race,parent=self)
         self.setCentralWidget(self.racesWindow)
         self.lastWindow = "raceDisplay"
         self.show()
@@ -169,24 +180,34 @@ class MainWindow(QMainWindow):
     
     # Gets the current races lists
     def startCrawlingFinder(self):
-        self.worker = UrlFinderQThread(parent=self)
-        self.worker.signals.finished.connect(self.loadRacesLinks)
-        self.threadpool.start(self.worker.run)
+        self.finder = UrlFinderQThread(parent=self)
+        self.worker = Worker(self.finder.run)
+        self.finder.signals.finished.connect(self.loadRacesLinks)
+        self.threadpool.start(self.worker)
 
     # Gets all the races data
     def startCrawlingExtracter(self):
         for link in self.racesLinks:
-            self.worker = UrlExtracterQThread(link,parent=self)
-            self.worker.signals.finished.connect(self.loadRaceResults)
-            self.threadpool.start(self.worker.run)
+            self.extracter = UrlExtracterQThread(link,parent=self)
+            self.worker = Worker(self.extracter.run)
+            
+            self.extracter.signals.finished.connect(self.loadRaceResults)
+            self.threadpool.start(self.worker)
 
     ### Precise url crawling functions
 
+
+    def startRacesMonitoring(self):
+        self.scheduleHandler.setup()
+
+
     def startPreciseExtraction(self,raceUrl):
-       # self.worker = UrlFinderQThread(parent=self)
-       # self.worker.signals.finished.connect(self.loadRacesLinks)
-       # self.threadpool.start(self.worker.run)
-        pass
+        self.extracter = UrlExtracterQThread(raceUrl,parent=self)
+        self.worker = Worker(self.extracter.run)
+            
+        self.extracter.signals.finished.connect(self.loadRaceResults)
+        self.threadpool.start(self.worker)
+
 
 
     def loadRacesLinks(self,data):

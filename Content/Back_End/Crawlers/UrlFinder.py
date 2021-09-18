@@ -1,3 +1,4 @@
+
 from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
@@ -6,13 +7,13 @@ import sys
 import os
 import gc
 
-from PyQt5.QtCore import QThread,QEventLoop,QTimer,QProcess
-from Content.Back_End.Widgets.WorkerSignals import WorkerSignalsFinder
+from PySide2.QtCore import QRunnable, QThread,QEventLoop,QTimer,QProcess,QObject
+from Content.Back_End.Objects.WorkerSignals import WorkerSignalsFinder
 
-class UrlFinderQThread(QThread):
+class UrlFinderQThread(QRunnable):
     
     def __init__(self, parent=None):
-        super(UrlFinderQThread, self).__init__()
+        super(UrlFinderQThread, self).__init__(parent=parent)
         self.parent = parent
         print("Parent !", self.parent.parent())
         self.signals = WorkerSignalsFinder()

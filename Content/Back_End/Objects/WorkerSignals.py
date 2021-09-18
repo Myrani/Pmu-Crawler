@@ -1,11 +1,11 @@
 from typing import List
-from PyQt5.QtCore import QObject,pyqtSignal
+from PySide2.QtCore import QObject,Signal
 
 class WorkerSignalsFinder(QObject):
     
-    finished = pyqtSignal(list)
+    finished = Signal(list)
 
 
 class WorkerSignalsExtracter(QObject):
     
-    finished = pyqtSignal(list)
+    finished = Signal(list)

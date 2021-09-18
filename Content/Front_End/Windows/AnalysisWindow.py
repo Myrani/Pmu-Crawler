@@ -1,6 +1,6 @@
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QLineEdit, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtWidgets import QLineEdit, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 class AnalysisWindow(QWidget):
 

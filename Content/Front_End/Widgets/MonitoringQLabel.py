@@ -1,5 +1,5 @@
-from PyQt5.QtCore import QRect, QSize, Qt
-from PyQt5.QtWidgets import QHBoxLayout, QListWidgetItem, QScrollArea, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtCore import QRect, QSize, Qt
+from PySide2.QtWidgets import QHBoxLayout, QListWidgetItem, QScrollArea, QVBoxLayout, QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 
 

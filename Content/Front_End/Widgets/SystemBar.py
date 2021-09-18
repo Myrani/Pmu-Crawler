@@ -1,5 +1,5 @@
-from PyQt5.QtWidgets import QGroupBox, QMainWindow, QWidget, QHBoxLayout, QPushButton
-from PyQt5.QtCore import QCoreApplication, QSize,Qt
+from PySide2.QtWidgets import QGroupBox, QMainWindow, QWidget, QHBoxLayout, QPushButton
+from PySide2.QtCore import QCoreApplication, QSize,Qt
 
 class SystemBar(QWidget):
     def __init__(self, parent=None):

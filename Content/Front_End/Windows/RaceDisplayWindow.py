@@ -2,16 +2,16 @@ from Content.Front_End.Widgets.RacesToolTip import RacesToolTip
 from Content.Front_End.Widgets.RacesScrollArea import RacesScrollArea
 from Content.Front_End.Widgets.MenuBar import MenuBar
 from Content.Front_End.Widgets.SystemBar import SystemBar
-from PyQt5.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
+from PySide2.QtWidgets import QWidget, QGridLayout, QGroupBox, QPushButton, QLabel
 
 class RaceDisplayWindow(QWidget):
 
     # Window to watchover the crawled results
-    def __init__(self,name,data,parent=None):
+    def __init__(self,race,parent=None):
         super(RaceDisplayWindow,self).__init__(parent=parent)
 
-        self.name = name
-        self.data = data
+        self.name = race.getName()
+        self.data = race.getRawData()
 
         print(self.data)
         self.systemBar = SystemBar(parent=self)
@@ -37,7 +37,7 @@ class RaceDisplayWindow(QWidget):
             object = QLabel(str(result))
             self.racesScrollArea.containerLayout.addWidget(object,i,0,1,1)
             i +=1
-        print(self.racesScrollArea.container.children())
+        # print(self.racesScrollArea.container.children())
 
         self.backButton = QPushButton("Courses")
         self.backButton.clicked.connect(

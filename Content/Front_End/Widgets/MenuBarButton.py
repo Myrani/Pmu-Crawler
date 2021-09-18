@@ -1,6 +1,6 @@
-from PyQt5 import QtWidgets
-from PyQt5.QtWidgets import QGroupBox, QMainWindow, QVBoxLayout, QWidget, QHBoxLayout, QPushButton
-from PyQt5.QtCore import QCoreApplication, QEvent, QSize,Qt
+from PySide2 import QtWidgets
+from PySide2.QtWidgets import QGroupBox, QMainWindow, QVBoxLayout, QWidget, QHBoxLayout, QPushButton
+from PySide2.QtCore import QCoreApplication, QEvent, QSize,Qt
 
 class MenuBarButton(QWidget):
     def __init__(self,name,function, parent=None):
@@ -20,8 +20,9 @@ class MenuBarButton(QWidget):
 
     def eventFilter(self, source, event):
         if event.type() == QEvent.HoverEnter:
-            self.function()
-            self.button.setStyleSheet("QPushButton{background-color: rgba(255, 255, 255, 0.6);color :black ;}")
+            pass
+            #self.function()
+            #self.button.setStyleSheet("QPushButton{background-color: rgba(255, 255, 255, 0.6);color :black ;}")
         
         elif event.type() == QEvent.HoverLeave:
 
