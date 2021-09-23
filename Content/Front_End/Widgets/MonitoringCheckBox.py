@@ -50,8 +50,8 @@ class MonitoringCheckBox(QWidget):
                 self.nativeParentWidget().pingList60minutes.remove(self.race)
 
 
-        print(self.nativeParentWidget().pingList15minutes)
-        print(self.nativeParentWidget().pingList30minutes)
-        print(self.nativeParentWidget().pingList60minutes)
+        #print(self.nativeParentWidget().pingList15minutes)
+        #print(self.nativeParentWidget().pingList30minutes)
+        #print(self.nativeParentWidget().pingList60minutes)
   
             

@@ -1,3 +1,4 @@
+from Content.Front_End.Widgets.RaceContestantLabel import RaceContestantLabel
 from Content.Front_End.Widgets.RacesToolTip import RacesToolTip
 from Content.Front_End.Widgets.RacesScrollArea import RacesScrollArea
 from Content.Front_End.Widgets.MenuBar import MenuBar
@@ -13,7 +14,7 @@ class RaceDisplayWindow(QWidget):
         self.name = race.getName()
         self.data = race.getRawData()
 
-        print(self.data)
+        
         self.systemBar = SystemBar(parent=self)
         self.menuBar = MenuBar(parent=self)
         self.racesMenu = QGroupBox(self)
@@ -34,7 +35,7 @@ class RaceDisplayWindow(QWidget):
 
         i = 0
         for key,result in self.data.items():
-            object = QLabel(str(result))
+            object = RaceContestantLabel(result)
             self.racesScrollArea.containerLayout.addWidget(object,i,0,1,1)
             i +=1
         # print(self.racesScrollArea.container.children())

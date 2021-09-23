@@ -26,7 +26,7 @@ class UrlFinderQThread(QRunnable):
         except Exception:
             base_path = os.path.abspath("Content\\Back_End\\Crawlers\\") 
             #"." 
-            #"Content\\Back_End\\"
+            #"Content\\Back_End\\Crawlers\\"
         return os.path.join(base_path, relative_path)
 
 

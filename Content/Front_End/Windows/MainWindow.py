@@ -31,7 +31,7 @@ class MainWindow(QMainWindow):
             
         # Jobs handlers
         self.dataHandler = DataHandler(parent=self)     # Saving/loading data special object
-        self.scheduleHandler = Scheduler(parent=self)   # Monitoring races special object
+          # Monitoring races special object
 
         # Durable variable initialization from save file
         self.racesFile = {}
@@ -53,12 +53,6 @@ class MainWindow(QMainWindow):
         self.racesDone = self.dataHandler.getDayData()
         self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
 
-        for race in self.curratedRacesDone:
-            print(race.getName())
-            print(race.getUrl())
-            print(race.getTimer())
-            print(race.getRawData())
-
 
 
         # Window Opacity
@@ -73,6 +67,11 @@ class MainWindow(QMainWindow):
         # Creation of the QThreadPool that will host Crawlers processes 
         self.threadpool = QThreadPool()
         self.threadpool.setMaxThreadCount(4)
+
+        self.schedulerThreadpool = QThreadPool()
+        self.schedulerThreadpool.setMaxThreadCount(4)
+
+
 
         #self.dataHandler.showCurrentData()
         #self.dataHandler.showSavedData()
@@ -122,9 +121,10 @@ class MainWindow(QMainWindow):
         delta = QPoint(event.globalPos() - self.oldPos)
         self.move(self.x() + delta.x(), self.y() + delta.y())
         self.oldPos = event.globalPos()
+    
     #Reachable Functions
-    def print1(self,x):
-        print(x,1)
+    def print(self,x):
+        print(x)
 
     def print2(self,x):
         print(x,2)
@@ -198,16 +198,19 @@ class MainWindow(QMainWindow):
 
 
     def startRacesMonitoring(self):
-        self.scheduleHandler.setup()
+        self.scheduler = Scheduler(parent=self) 
+        self.scheduleWorker = Worker(self.scheduler.setup)
+        self.schedulerThreadpool.start(self.scheduleWorker)
+
 
 
     def startPreciseExtraction(self,raceUrl):
-        self.extracter = UrlExtracterQThread(raceUrl,parent=self)
-        self.worker = Worker(self.extracter.run)
+        #self.extracter = UrlExtracterQThread(raceUrl,parent=self)
+        #self.worker = Worker(self.extracter.run)
             
-        self.extracter.signals.finished.connect(self.loadRaceResults)
-        self.threadpool.start(self.worker)
-
+        #self.extracter.signals.finished.connect(self.loadRaceResults)
+        #self.threadpool.start(self.worker)
+        print("precise extract of ",raceUrl)
 
 
     def loadRacesLinks(self,data):
@@ -219,4 +222,7 @@ class MainWindow(QMainWindow):
         if len(self.racesDone) == len(self.racesLinks):
             self.dataHandler.saveCurrentResults()
             self.dataHandler.showSavedData()
+        self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
         self.refreshCurrenWindow()
+
+        
