@@ -197,20 +197,20 @@ class MainWindow(QMainWindow):
     ### Precise url crawling functions
 
 
+    def startPreciseRaceReExtraction(self,race):
+        self.extracter = UrlExtracterQThread(race,parent=self)
+        self.worker = Worker(self.extracter.run)
+            
+        self.extracter.signals.finished.connect(self.refreshRaceResults)
+        self.threadpool.start(self.worker)
+
+
+
+
     def startRacesMonitoring(self):
         self.scheduler = Scheduler(parent=self) 
-        self.scheduleWorker = Worker(self.scheduler.setup)
-        self.schedulerThreadpool.start(self.scheduleWorker)
 
 
-
-    def startPreciseExtraction(self,raceUrl):
-        #self.extracter = UrlExtracterQThread(raceUrl,parent=self)
-        #self.worker = Worker(self.extracter.run)
-            
-        #self.extracter.signals.finished.connect(self.loadRaceResults)
-        #self.threadpool.start(self.worker)
-        print("precise extract of ",raceUrl)
 
 
     def loadRacesLinks(self,data):
@@ -225,4 +225,8 @@ class MainWindow(QMainWindow):
         self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
         self.refreshCurrenWindow()
 
-        
+
+    def refreshRaceResults(self,data):
+        self.racesDone[data[0]] = data[1]
+        self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
+        self.refreshCurrenWindow()

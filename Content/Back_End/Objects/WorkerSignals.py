@@ -1,4 +1,4 @@
-from typing import List
+from Content.Back_End.Objects.Race import Race
 from PySide2.QtCore import QObject,Signal
 
 class WorkerSignalsFinder(QObject):
@@ -9,3 +9,9 @@ class WorkerSignalsFinder(QObject):
 class WorkerSignalsExtracter(QObject):
     
     finished = Signal(list)
+
+
+class SchedulerSignals(QObject):
+    
+    ping = Signal(Race)
+    extracted = Signal(dict)
