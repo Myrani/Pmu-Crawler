@@ -54,6 +54,23 @@ class DataHandler():
             racelist.append(Race(name,data))
 
         return racelist
+    # Update RaceFile Data
+
+    def isolateCote(self):
+        pass
+
+
+    def updateDayData(self,data):
+        cacheFile = self.getDayData()
+        for key,value in data.items():
+            for name,stats in value.items():
+                if (isinstance(cacheFile[key][name],list)):
+                    cacheFile[key][name].append(data[key][name][7])
+        
+        #cacheFile[course][contestant].append(data[7])
+        return cacheFile
+
+
 
     ### Self care function 
 
@@ -61,9 +78,13 @@ class DataHandler():
         for key,value in self.parent.racesFile.items():
             print(key,value)
 
+
     def showSavedData(self):
         with open(self.resource_path('save.pkl'), 'rb') as savefile:
             for date,results in pickle.load(savefile).items():
                 print(date)
                 for key,value in results.items():
                     print(key,value)
+
+
+    

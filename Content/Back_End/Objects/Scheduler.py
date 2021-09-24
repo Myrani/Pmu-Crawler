@@ -37,6 +37,7 @@ class Scheduler():
     #Add a ping 1 Hour before launch 
     def add1HourBeforePing(self,race):
         time = datetime.datetime(self.year, self.month, self.day, race.getHour(),race.getMinutes(), 0,0).timestamp()-3600  - QDateTime.currentDateTime().toSecsSinceEpoch()
+   
         self.pingIn_Seconds(time,race)
 
 
@@ -51,14 +52,17 @@ class Scheduler():
         self.pingIn_Seconds(time,race)
 
     def getRaceResults(self,hours,minutes,raceUrl):
-        self.scheduler.enterabs(datetime.datetime(self.year, self.month, self.day, hours, minutes, 0,0).timestamp()-3600, 1, self.parent.startPreciseExtraction, argument=1,kwargs=raceUrl)
+        self.scheduler.enterabs(datetime.datetime(self.year, self.month, self.day, hours, minutes, 0,0).timestamp()-3600, 1, self.parent.startPreciseRaceReExtraction, argument=1,kwargs=raceUrl)
     
     def pingIn_Seconds(self,seconds,race):
+        print(race)
+        print(race.getUrl())
+        print(self.parent.startCrawlingReExtraction)
         timer = QtCore.QTimer()
         timer.setSingleShot(True)
-        timer.timeout.connect(lambda:self.startPreciseRaceReExtraction(race))
-        print(QDateTime.currentDateTime().addSecs(seconds).toMSecsSinceEpoch() - QDateTime.currentDateTime().toMSecsSinceEpoch())
-        timer.start(QDateTime.currentDateTime().addSecs(seconds).toMSecsSinceEpoch() - QDateTime.currentDateTime().toMSecsSinceEpoch())
+        timer.timeout.connect(lambda:self.parent.startCrawlingReExtraction(race))
+        print(QDateTime.currentDateTime().addSecs(5).toMSecsSinceEpoch() - QDateTime.currentDateTime().toMSecsSinceEpoch())
+        timer.start(QDateTime.currentDateTime().addSecs(5).toMSecsSinceEpoch() - QDateTime.currentDateTime().toMSecsSinceEpoch())
         self.timerList.append(timer)
 
     def showQueue(self):

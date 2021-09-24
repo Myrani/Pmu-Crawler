@@ -1,4 +1,5 @@
 
+from Content.Back_End.Crawlers.UrlReExtracter import UrlReExtracterQThread
 from Content.Front_End.Windows.RaceDisplayWindow import RaceDisplayWindow
 from Content.Front_End.Windows.AnalysisWindow import AnalysisWindow
 from Content.Back_End.Objects.Scheduler import Scheduler
@@ -172,7 +173,7 @@ class MainWindow(QMainWindow):
         self.show()
 
     ### Refresh the last windows in case case of content update
-    def refreshCurrenWindow(self):
+    def refreshCurrentWindow(self):
         self.windowDict[self.lastWindow]()
 
 
@@ -197,13 +198,12 @@ class MainWindow(QMainWindow):
     ### Precise url crawling functions
 
 
-    def startPreciseRaceReExtraction(self,race):
-        self.extracter = UrlExtracterQThread(race,parent=self)
-        self.worker = Worker(self.extracter.run)
+    def startCrawlingReExtraction(self,race):
+        self.reExtracter = UrlReExtracterQThread(race,parent=self)
+        self.worker = Worker(self.reExtracter.run)
             
-        self.extracter.signals.finished.connect(self.refreshRaceResults)
+        self.reExtracter.signals.finished.connect(self.loadRaceResfresh)
         self.threadpool.start(self.worker)
-
 
 
 
@@ -212,21 +212,25 @@ class MainWindow(QMainWindow):
 
 
 
-
     def loadRacesLinks(self,data):
         self.racesLinks = data
-        self.refreshCurrenWindow()
+        self.refreshCurrentWindow()
 
     def loadRaceResults(self,data):
         self.racesDone[data[0]] = data[1]
         if len(self.racesDone) == len(self.racesLinks):
-            self.dataHandler.saveCurrentResults()
             self.dataHandler.showSavedData()
+        self.dataHandler.saveCurrentResults()
         self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
-        self.refreshCurrenWindow()
+        self.refreshCurrentWindow()
 
+    def loadRaceResfresh(self,data):
+        self.racesFile = self.dataHandler.updateDayData(data)
+            
+        
+        self.dataHandler.saveCurrentResults()
 
     def refreshRaceResults(self,data):
         self.racesDone[data[0]] = data[1]
         self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
-        self.refreshCurrenWindow()
+        self.refreshCurrentWindow()

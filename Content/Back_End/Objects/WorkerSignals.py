@@ -11,6 +11,11 @@ class WorkerSignalsExtracter(QObject):
     finished = Signal(list)
 
 
+class WorkerSignalsReExtracter(QObject):
+    
+    finished = Signal(dict)
+
+
 class SchedulerSignals(QObject):
     
     ping = Signal(Race)
