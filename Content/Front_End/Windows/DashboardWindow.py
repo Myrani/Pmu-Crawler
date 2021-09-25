@@ -51,5 +51,7 @@ class DashboardWindow(QWidget):
 
         self.monitoringPanelDescription = QLabel("Vue Rapide : Surveillance")
         self.monitoringPanelLayout.addWidget(self.monitoringPanelDescription)
-
+        for event in self.parent().eventCache:
+  
+            self.monitoringPanelLayout.addWidget(QLabel("Course : "+ event[0]+" Participant : "+event[1]+" Variation de cote "+event[2]+" à "+event[3]))
 

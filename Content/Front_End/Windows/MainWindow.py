@@ -32,7 +32,6 @@ class MainWindow(QMainWindow):
             
         # Jobs handlers
         self.dataHandler = DataHandler(parent=self)     # Saving/loading data special object
-          # Monitoring races special object
 
         # Durable variable initialization from save file
         self.racesFile = {}
@@ -55,6 +54,8 @@ class MainWindow(QMainWindow):
         self.curratedRacesDone = self.dataHandler.generateRacesListFromDayData()
 
 
+        # Curent noticeable events cache
+        self.eventCache = []
 
         # Window Opacity
         self.opacity_effect = QGraphicsOpacityEffect()
@@ -205,12 +206,8 @@ class MainWindow(QMainWindow):
         self.reExtracter.signals.finished.connect(self.loadRaceResfresh)
         self.threadpool.start(self.worker)
 
-
-
     def startRacesMonitoring(self):
         self.scheduler = Scheduler(parent=self) 
-
-
 
     def loadRacesLinks(self,data):
         self.racesLinks = data
@@ -226,8 +223,6 @@ class MainWindow(QMainWindow):
 
     def loadRaceResfresh(self,data):
         self.racesFile = self.dataHandler.updateDayData(data)
-            
-        
         self.dataHandler.saveCurrentResults()
 
     def refreshRaceResults(self,data):

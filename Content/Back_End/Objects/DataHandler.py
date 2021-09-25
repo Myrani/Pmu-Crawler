@@ -6,6 +6,8 @@ from Content.Back_End.Objects.Race import Race
 
 class DataHandler():
     
+
+    ### Bare minimum functions
     def __init__(self,parent=None):
         self.currentDate = date.today().strftime("%d/%m/%Y")
         self.parent = parent
@@ -39,7 +41,7 @@ class DataHandler():
             pickle.dump(self.parent.racesFile ,savefile)
 
 
-    # returns data from current Scheduler day 
+    # Fectch data functions
 
     def getDayData(self):
         try:
@@ -54,11 +56,9 @@ class DataHandler():
             racelist.append(Race(name,data))
 
         return racelist
+    
+    
     # Update RaceFile Data
-
-    def isolateCote(self):
-        pass
-
 
     def updateDayData(self,data):
         cacheFile = self.getDayData()
@@ -66,9 +66,18 @@ class DataHandler():
             for name,stats in value.items():
                 if (isinstance(cacheFile[key][name],list)):
                     cacheFile[key][name].append(data[key][name][7])
+                    self.analyseOddsVariation(key,name,cacheFile[key][name][-1],cacheFile[key][name][-2])
         
-        #cacheFile[course][contestant].append(data[7])
         return cacheFile
+
+
+    # Ping in case of a odd drop 
+
+    def analyseOddsVariation(self,key,name,old,new):
+        #print(old,new)
+        if int(old) - int(new) >= 40:
+            self.parent.eventCache.append([key,name,old,new])
+
 
 
 
